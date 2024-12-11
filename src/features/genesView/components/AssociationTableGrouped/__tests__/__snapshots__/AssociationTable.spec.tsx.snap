@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AssociationTableGrouped Should render correctly 1`] = `
+<div
+  className="css-1797vtp-AppPaper"
+>
+  <div>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-5th3yp-MuiTypography-root-BaseText"
+    >
+      Table header
+    </p>
+  </div>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-xjykur-MuiTypography-root-BaseText"
+  >
+    Tier 1
+  </p>
+  <div
+    className="css-o35ygq-AssociationTableGrouped"
+  >
+    <div
+      className="css-10uwen7-AssociationTableGrouped"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+      />
+    </div>
+    <div
+      className="css-10uwen7-AssociationTableGrouped"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+      />
+    </div>
+  </div>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-xjykur-MuiTypography-root-BaseText"
+  >
+    Tier 2
+  </p>
+  <div
+    className="css-o35ygq-AssociationTableGrouped"
+  >
+    <div
+      className="css-10uwen7-AssociationTableGrouped"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+      />
+    </div>
+    <div
+      className="css-10uwen7-AssociationTableGrouped"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+      />
+    </div>
+  </div>
+</div>
+`;

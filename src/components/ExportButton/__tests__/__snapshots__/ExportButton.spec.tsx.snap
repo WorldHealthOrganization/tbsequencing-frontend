@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExportButton component test Should render correctly 1`] = `
+<div
+  className="css-zuqjgc-ExportButton"
+>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-5th3yp-MuiTypography-root-BaseText"
+  >
+    Export CSV Data
+  </p>
+  <div
+    className="css-uhrw2b-ExportButton"
+  >
+    <button
+      className="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation MuiButtonBase-root css-sfprtt-MuiButtonBase-root-MuiButton-root-AppButton"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onContextMenu={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+      >
+        <span
+          aria-hidden={true}
+          className="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-kp9ftd-MuiIcon-root"
+        >
+          file_download
+        </span>
+      </span>
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-3cwtjx-MuiTypography-root-BaseText"
+      >
+        Download
+      </p>
+    </button>
+    <a
+      download="Rifampicin"
+      href="data:text/csv;charset=utf-8,﻿\\"Label\\""
+      onClick={[Function]}
+      target="_self"
+    />
+  </div>
+</div>
+`;

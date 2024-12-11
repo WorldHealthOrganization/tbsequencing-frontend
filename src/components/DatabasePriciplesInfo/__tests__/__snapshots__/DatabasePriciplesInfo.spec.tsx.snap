@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DatabasePrinciplesInfo component test Should render correctly 1`] = `
+<div
+  className="css-itzgr4-AppPaper"
+>
+  <div
+    className="css-2qrk9e-DatabasePrinciplesInfo"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1ljb60k-MuiTypography-root-BaseText"
+    >
+      If you upload or otherwise submit data, information or other content (User Content) to the Platform,
+   you represent and warrant that you have obtained all necessary permissions and have the'
+   authority to upload User Content into the Platform.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1ljb60k-MuiTypography-root-BaseText"
+    >
+      By uploading User Content you understand and agree that other registered users will have access
+   to your User Content, and may use the content for non-commercial public health purposes.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1ljb60k-MuiTypography-root-BaseText"
+    >
+      You also agree that WHO may grant permission to other institutions to publish the information,
+   subject to an appropriate acknowledgement of the data source.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1ljb60k-MuiTypography-root-BaseText"
+    >
+      If you do not wish other users to access or use your User Content, please advise WHO by email 
+      <a
+        href="mailto:tbsequencing@who.int"
+      >
+        tbsequencing@who.int
+      </a>
+       within 30 days of submission and provide details of the data submitted.
+    </p>
+  </div>
+</div>
+`;

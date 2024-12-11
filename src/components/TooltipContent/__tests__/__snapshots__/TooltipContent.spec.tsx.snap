@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TooltipContent component test Should render correctly 1`] = `
+<div>
+  <div
+    className="css-1ikwcp4-TooltipContent"
+  >
+    <div>
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-1hxhjf6-MuiTypography-root-BaseText"
+      >
+        Resistance type
+      </p>
+    </div>
+    <div
+      className="css-x6303e-TooltipContent"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-1hxhjf6-MuiTypography-root-BaseText"
+      >
+        Sample Quantity
+      </p>
+      <div
+        className="css-14pvma5-TooltipContent"
+      >
+        |
+      </div>
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-1hxhjf6-MuiTypography-root-BaseText"
+      >
+        Ratio
+      </p>
+    </div>
+  </div>
+  <section
+    className="css-1w9sopu-TooltipContent"
+  >
+    <section
+      className="css-5m805h-LegendSection"
+    >
+      <div
+        className="css-7quzd6-LegendSection"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-h80jya-MuiTypography-root-BaseText"
+        >
+          Susceptible
+        </p>
+      </div>
+      <div
+        className="css-e34bgz-LegendSection"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-17i10ys-MuiTypography-root-BaseText"
+        >
+          0
+        </p>
+        <div
+          className="css-1aaqwci-LegendSection"
+        >
+          |
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-190gnlv-MuiTypography-root-BaseText"
+        >
+          %
+        </p>
+      </div>
+    </section>
+    <section
+      className="css-5m805h-LegendSection"
+    >
+      <div
+        className="css-7quzd6-LegendSection"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-h80jya-MuiTypography-root-BaseText"
+        >
+          Resistant
+        </p>
+      </div>
+      <div
+        className="css-e34bgz-LegendSection"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-17i10ys-MuiTypography-root-BaseText"
+        >
+          0
+        </p>
+        <div
+          className="css-1aaqwci-LegendSection"
+        >
+          |
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-190gnlv-MuiTypography-root-BaseText"
+        >
+          %
+        </p>
+      </div>
+    </section>
+    <section
+      className="css-5m805h-LegendSection"
+    >
+      <div
+        className="css-7quzd6-LegendSection"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-h80jya-MuiTypography-root-BaseText"
+        >
+          Intermediate
+        </p>
+      </div>
+      <div
+        className="css-e34bgz-LegendSection"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-17i10ys-MuiTypography-root-BaseText"
+        >
+          0
+        </p>
+        <div
+          className="css-1aaqwci-LegendSection"
+        >
+          |
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-190gnlv-MuiTypography-root-BaseText"
+        >
+          %
+        </p>
+      </div>
+    </section>
+  </section>
+  <div
+    className="css-1h5ahk2-TooltipContent"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1y45chy-MuiTypography-root-BaseText"
+    >
+      Total samples: 
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1txnmoh-MuiTypography-root-BaseText"
+    >
+      0
+    </p>
+  </div>
+</div>
+`;

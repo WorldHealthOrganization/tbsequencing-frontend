@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToggleButton component test Should render correctly 1`] = `
+<div
+  className="MuiFormGroup-root css-dmmspl-MuiFormGroup-root"
+>
+  <label
+    className="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-j204z7-MuiFormControlLabel-root"
+  >
+    <span
+      className="MuiSwitch-root MuiSwitch-sizeMedium css-nqg44v-MuiSwitch-root"
+    >
+      <span
+        className="MuiSwitch-switchBase MuiSwitch-colorPrimary Mui-checked MuiButtonBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary Mui-checked PrivateSwitchBase-root Mui-checked css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase"
+        onBlur={[Function]}
+        onContextMenu={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={null}
+      >
+        <input
+          checked={Object {}}
+          className="MuiSwitch-input PrivateSwitchBase-input css-1m9pwf3"
+          name="mockSwitch"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="MuiSwitch-thumb css-jsexje-MuiSwitch-thumb"
+        />
+      </span>
+      <span
+        className="MuiSwitch-track css-1yjjitx-MuiSwitch-track"
+      />
+    </span>
+    <span
+      className="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-ahj2mt-MuiTypography-root"
+    >
+      mockLabel
+    </span>
+  </label>
+</div>
+`;

@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  height: 100%;
+}
+
+@font-face {
+  font-family: "SourceSansRegular" ;
+  src: url("./assets/fonts/SourceSansPro-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "SourceSansBold" ;
+  src: url("./assets/fonts/SourceSansPro-Bold.ttf") format('truetype');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #DDEFF9;
+  border-radius: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #009ADE;
+  border-radius: 4px;
+}
+
+/*MOZILLA ONLY */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #009ADE #DDEFF9;
+}
+

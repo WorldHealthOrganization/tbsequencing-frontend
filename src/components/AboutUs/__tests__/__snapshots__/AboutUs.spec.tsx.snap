@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutUs component test Should render correctly 1`] = `
+<div>
+  <section
+    className="css-681mwz-AboutUs"
+  >
+    <div
+      className="css-12v7j3q-AboutUs"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-880rsd-MuiTypography-root-BaseText"
+      >
+        TBKB
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-kwxhw4-MuiTypography-root-BaseText"
+      >
+        Welcome to the
+         
+        <i>
+          Mycobacterium tuberculosis
+        </i>
+         
+        sequencing and phenotyping knowledgebase of the WHO Global Tuberculosis Programme
+      </p>
+      <button
+        className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root css-1sfzpsj-MuiButtonBase-root-MuiButton-root-AppButton"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-xpvncm-MuiTypography-root-BaseText"
+        >
+          Read More
+        </p>
+      </button>
+    </div>
+  </section>
+  <section
+    className="css-1u1847n-AboutUs"
+  >
+    <div
+      className="css-1o6wunx-AboutUs"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-euu0lb-MuiTypography-root-BaseText"
+      >
+        Who are we?
+      </p>
+      <div
+        className="css-xw4omq-AppPaper"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-5nu55l-MuiTypography-root-BaseText"
+        >
+          The WHO Global Tuberculosis Programme works towards the goal of a world free of TB, with zero deaths, disease and suffering due to the disease. The team's mission is to lead and guide the global effort to end the TB epidemic through universal access to people-centred prevention and care, multisectoral action and innovation.
+        </p>
+      </div>
+    </div>
+    <div>
+      <svg
+        height="304"
+        width="431"
+      >
+        scientistImage1.svg
+      </svg>
+    </div>
+  </section>
+  <section
+    className="css-1u1847n-AboutUs"
+  >
+    <div>
+      <svg
+        height="304"
+        width="431"
+      >
+        scientistImage2.svg
+      </svg>
+    </div>
+    <div
+      className="css-1o6wunx-AboutUs"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-euu0lb-MuiTypography-root-BaseText"
+      >
+        Mission of the project
+      </p>
+      <div
+        className="css-xw4omq-AppPaper"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-5nu55l-MuiTypography-root-BaseText"
+        >
+          TBKB welcomes any voluntary contributions of combined whole genome sequencing and phenotypic drug susceptibility results (pDST) of
+           
+          <i>
+            M. tuberculosis
+          </i>
+           
+          clinical isolates. Terms and conditions for the data submitted to portal are available in the data submission page. TBKB handles processing of the raw sequencing data internally and provides aggregated statistics based on genotype calls in its different dashboard views. Ultimately, all data collected via this portal will be integrated for drug resistance markers identification under the WHO Mutations Catalogue initiative. TBKB acknowledges the contribution of the
+           
+          <a
+            className="css-1k83lwy-AboutUs"
+            href="https://www.insdc.org/"
+          >
+            International Nucleotide Sequence Database Collaboration
+          </a>
+           
+          and uses its public ressources to achieve its goals.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section
+    className="css-gs2got-AboutUs"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1i0qxbv-MuiTypography-root-BaseText"
+    >
+      How does it work?
+    </p>
+    <div
+      className="css-zlvjj5-AboutUs"
+    >
+      <svg
+        height="1332"
+        width="1340"
+      >
+        stepsFull.svg
+      </svg>
+    </div>
+  </section>
+  <section
+    className="css-1jkrae5-AboutUs"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-euu0lb-MuiTypography-root-BaseText"
+    >
+      Partners and sponsors
+    </p>
+    <div
+      className="css-1jkr5is-AboutUs"
+    >
+      <div
+        className="css-eqjams-Partner"
+      >
+        <svg
+          height="176"
+          width="200"
+        >
+          seqLogo.svg
+        </svg>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-kxf6at-MuiTypography-root-BaseText"
+        >
+          <a
+            className="css-fe89j9-Partner"
+            href="https://www.finddx.org/what-we-do/projects/seqtreat/"
+          >
+            Seq&Treat
+          </a>
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-nhq2dv-MuiTypography-root-BaseText"
+        >
+          Seq&Treat brings next-generation tuberculosis care to underserved communities.
+        </p>
+      </div>
+      <div
+        className="css-4cd8x7-Partner"
+      >
+        <svg
+          height="176"
+          width="200"
+        >
+          findLogo.svg
+        </svg>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-kxf6at-MuiTypography-root-BaseText"
+        >
+          <a
+            className="css-fe89j9-Partner"
+            href="https://www.finddx.org/"
+          >
+            FIND
+          </a>
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-nhq2dv-MuiTypography-root-BaseText"
+        >
+          We are a global non-profit connecting countries and communities, funders, decisionmakers, healthcare providers and developers.
+        </p>
+      </div>
+      <div
+        className="css-4cd8x7-Partner"
+      >
+        <svg
+          height="176"
+          width="200"
+        >
+          uniLogo.svg
+        </svg>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-kxf6at-MuiTypography-root-BaseText"
+        >
+          <a
+            className="css-fe89j9-Partner"
+            href="https://unitaid.org/#en"
+          >
+            UNITAID
+          </a>
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-nhq2dv-MuiTypography-root-BaseText"
+        >
+          Unitaid saves lives by making new health products available and affordable for people in low- and middle-income countries.
+        </p>
+      </div>
+      <div
+        className="css-4cd8x7-Partner"
+      >
+        <svg
+          height="176"
+          width="200"
+        >
+          whoLogo.svg
+        </svg>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-kxf6at-MuiTypography-root-BaseText"
+        >
+          <a
+            className="css-fe89j9-Partner"
+            href="https://www.who.int/"
+          >
+            World Health Organization
+          </a>
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-nhq2dv-MuiTypography-root-BaseText"
+        >
+          We champion health and a better future for all.
+        </p>
+      </div>
+    </div>
+  </section>
+  <footer
+    className="css-105d0yu-AboutUs"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-ux4luz-MuiTypography-root-BaseText"
+    >
+      Contacts
+    </p>
+    <div
+      className="css-8bsxat-AboutUs"
+    >
+      <div
+        className="css-vtpaov-Contact"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-17mv985-MuiTypography-root-BaseText"
+        >
+          FIND
+        </p>
+        <a
+          className="css-1tbc68-Contact"
+          href="mailto: sequencing@finddx.org"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-zzhh7v-MuiTypography-root-BaseText"
+          >
+            sequencing@finddx.org
+          </p>
+        </a>
+        <a
+          className="css-1tbc68-Contact"
+          href="https://www.finddx.org/what-we-do/projects/seqtreat/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-zzhh7v-MuiTypography-root-BaseText"
+          >
+            https://www.finddx.org/
+          </p>
+        </a>
+      </div>
+      <div
+        className="css-19vlte3-Contact"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-17mv985-MuiTypography-root-BaseText"
+        >
+          WHO
+        </p>
+        <a
+          className="css-1tbc68-Contact"
+          href="mailto: tbsequencing@who.int"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-zzhh7v-MuiTypography-root-BaseText"
+          >
+            tbsequencing@who.int
+          </p>
+        </a>
+        <a
+          className="css-1tbc68-Contact"
+          href="https://www.who.int/teams/global-tuberculosis-programme/overview"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-zzhh7v-MuiTypography-root-BaseText"
+          >
+            https://www.who.int/
+          </p>
+        </a>
+      </div>
+    </div>
+    <div
+      className="css-r3j2t5-AboutUs"
+    >
+      <svg
+        height="70"
+        width="228"
+      >
+        whoLogoBig.svg
+      </svg>
+      <div
+        className="css-l3vls6-AboutUs"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-gevtu4-MuiTypography-root-BaseText"
+        >
+          <a
+            className="css-luhs0y-AboutUs"
+            href="https://www.who.int/about/policies/terms-of-use"
+          >
+            © 2023 WHO
+          </a>
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-xl6u2a-MuiTypography-root-BaseText"
+        >
+          <a
+            className="css-luhs0y-AboutUs"
+            href="https://www.who.int/about/policies/privacy"
+          >
+            Privacy legal notice
+          </a>
+        </p>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

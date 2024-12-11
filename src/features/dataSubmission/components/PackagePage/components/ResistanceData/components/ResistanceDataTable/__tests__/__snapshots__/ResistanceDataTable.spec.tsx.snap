@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResistanceDataTable component test Should render correctly 1`] = `
+Array [
+  <div
+    className="css-1udyuk7-ResistanceDataSamplesHeaderRow"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1134uzf-MuiTypography-root-BaseText"
+    >
+      mockTitle
+    </p>
+    <div
+      className="css-zuupt0-ResistanceDataSamplesHeaderRow"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-9wau7z-MuiTypography-root-BaseText"
+      >
+        1 items
+      </p>
+      <button
+        className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+        data-testid="expand-btn"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1mqn5fw-MuiSvgIcon-root"
+          data-testid="ArrowDropDownIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m7 10 5 5 5-5z"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>,
+  <div
+    className="MuiTableContainer-root css-rorn0c-MuiTableContainer-root"
+  >
+    <table
+      className="MuiTable-root css-rqglhn-MuiTable-root"
+      role={null}
+    >
+      <thead
+        className="MuiTableHead-root css-15wwp11-MuiTableHead-root"
+        role={null}
+      >
+        <tr
+          className="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
+          role={null}
+        >
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1nghee1-MuiTableCell-root-ResistanceDataTable"
+            scope="col"
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 css-vtlwgn-MuiTypography-root-BaseText"
+            >
+              Sample Name
+            </p>
+          </th>
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1nghee1-MuiTableCell-root-ResistanceDataTable"
+            scope="col"
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 css-vtlwgn-MuiTypography-root-BaseText"
+            >
+              Verdicts
+            </p>
+          </th>
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1nghee1-MuiTableCell-root-ResistanceDataTable"
+            scope="col"
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 css-vtlwgn-MuiTypography-root-BaseText"
+            >
+              FastQ prefix
+            </p>
+          </th>
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1nghee1-MuiTableCell-root-ResistanceDataTable"
+            scope="col"
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 css-vtlwgn-MuiTypography-root-BaseText"
+            >
+              Match source
+            </p>
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+        role={null}
+      >
+        <tr
+          className="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+          role={null}
+        >
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-qo7vjo-MuiTableCell-root-PackageDataGridCell"
+          >
+            <div
+              className="css-1actu8n-EditableSampleName"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1 css-vtlwgn-MuiTypography-root-BaseText"
+              >
+                mock
+              </p>
+              <button
+                className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onContextMenu={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex={0}
+                type="button"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1s1qiw1-MuiSvgIcon-root"
+                  data-testid="ModeEditOutlinedIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M3 21h3.75L17.81 9.94l-3.75-3.75L3 17.25V21zm2-2.92 9.06-9.06.92.92L5.92 19H5v-.92zM18.37 3.29a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83c.39-.39.39-1.02 0-1.41l-2.34-2.34z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-qo7vjo-MuiTableCell-root-PackageDataGridCell"
+          >
+            <div
+              className="css-icwgla-ResistanceFileVerdict"
+            >
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-v1629q-MuiSvgIcon-root"
+                data-testid="WarningAmberOutlinedIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 5.99 19.53 19H4.47L12 5.99M12 2 1 21h22L12 2zm1 14h-2v2h2v-2zm0-6h-2v4h2v-4z"
+                />
+              </svg>
+              <p
+                className="MuiTypography-root MuiTypography-body1 css-phgkfg-MuiTypography-root-BaseText"
+              >
+                mock
+              </p>
+            </div>
+          </td>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-qo7vjo-MuiTableCell-root-PackageDataGridCell"
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 css-vtlwgn-MuiTypography-root-BaseText"
+            >
+              MOCK
+            </p>
+          </td>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-qo7vjo-MuiTableCell-root-PackageDataGridCell"
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 css-vtlwgn-MuiTypography-root-BaseText"
+            >
+              New sample created from uploaded FASTQ
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+]
+`;

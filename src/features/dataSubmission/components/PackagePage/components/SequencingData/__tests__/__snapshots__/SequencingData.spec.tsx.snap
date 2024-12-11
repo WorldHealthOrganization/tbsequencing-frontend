@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SequencingData component test Should render correctly 1`] = `
+<div
+  className="css-1x7x8ox-AppPaper"
+>
+  <div
+    className="css-18brta0-SequencingData"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-5th3yp-MuiTypography-root-BaseText"
+    >
+      Sequencing Data
+    </p>
+    <div
+      className="css-9w8uqp-SequencingData"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-h80jya-MuiTypography-root-BaseText"
+      >
+        only *fastq.gz files allowed
+      </p>
+      <button
+        className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root css-1sfzpsj-MuiButtonBase-root-MuiButton-root-AppButton"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-3cwtjx-MuiTypography-root-BaseText"
+        >
+          Browse
+        </p>
+      </button>
+    </div>
+  </div>
+  <input
+    accept=".gz"
+    className="css-62qo6-SequencingData"
+    data-testid="fileInput"
+    multiple={true}
+    onChange={[MockFunction]}
+    type="file"
+  />
+  <div
+    className="css-k1sx8x-DataSubmissionSampleRow"
+  >
+    <div
+      className="css-yb5sry-DataSubmissionSampleRow"
+    >
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2rraxu-MuiSvgIcon-root"
+        data-testid="DoneIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+        />
+      </svg>
+      <div
+        className="css-1cp60dy-DataSubmissionSampleRow"
+      >
+        <div>
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-vtlwgn-MuiTypography-root-BaseText"
+          >
+            mockName0
+          </p>
+        </div>
+        <div>
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-1y45chy-MuiTypography-root-BaseText"
+          >
+            0 Bytes
+          </p>
+        </div>
+      </div>
+      <div
+        className="css-1xzex0e-DataSubmissionSampleRow"
+      />
+    </div>
+  </div>
+  <div
+    className="css-k1sx8x-DataSubmissionSampleRow"
+  >
+    <div
+      className="css-yb5sry-DataSubmissionSampleRow"
+    >
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2rraxu-MuiSvgIcon-root"
+        data-testid="DoneIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+        />
+      </svg>
+      <div
+        className="css-1cp60dy-DataSubmissionSampleRow"
+      >
+        <div>
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-vtlwgn-MuiTypography-root-BaseText"
+          >
+            mockName1
+          </p>
+        </div>
+        <div>
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-1y45chy-MuiTypography-root-BaseText"
+          >
+            0 Bytes
+          </p>
+        </div>
+      </div>
+      <div
+        className="css-1xzex0e-DataSubmissionSampleRow"
+      />
+    </div>
+  </div>
+</div>
+`;

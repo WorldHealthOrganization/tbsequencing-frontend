@@ -1,0 +1,4 @@
+plopfile.js
+/.commitlintrc.json
+/coverage
+/src/features/worldmap/components/WorldMap/WorldMap.tsx

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`H2 component test Should render correctly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1 css-nwtw2h-MuiTypography-root-BaseText"
+>
+  mockText
+</p>
+`;

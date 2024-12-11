@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Registration result tests Should render correctly 1`] = `
+<div
+  className="css-1p4btuk-RegistrationResult"
+>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-idpj3q-MuiTypography-root-BaseText"
+  >
+    To finalize your registration, please check your inbox and your spam folder after a few minutes to confirm your email address.
+  </p>
+  <svg
+    height={512}
+    width={1113}
+  >
+    Frame.svg
+  </svg>
+</div>
+`;

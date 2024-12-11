@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GeneNotSelectedContent Should render correctly 1`] = `
+<div
+  className="css-1k0mzhl-GeneNotSelectedContent"
+>
+  <div
+    className="css-9j8ib4-AppPaper"
+  >
+    <div>
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-5th3yp-MuiTypography-root-BaseText"
+      >
+        Most Searched
+      </p>
+    </div>
+    <div
+      className="css-hxjvcr-AssociationTable"
+    >
+      No data
+    </div>
+  </div>
+  <div
+    className="css-9j8ib4-AppPaper"
+  >
+    <div>
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-5th3yp-MuiTypography-root-BaseText"
+      >
+        Recently Searched
+      </p>
+    </div>
+    <div
+      className="css-hxjvcr-AssociationTable"
+    >
+      No data
+    </div>
+  </div>
+</div>
+`;

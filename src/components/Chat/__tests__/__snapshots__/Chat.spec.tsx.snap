@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`chat Should render correctly 1`] = `
+<div
+  className="css-vlmu6g-Chat"
+>
+  <svg
+    aria-hidden={true}
+    className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1cimjwj-MuiSvgIcon-root"
+    data-testid="CloseIcon"
+    focusable="false"
+    onClick={[Function]}
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+    />
+  </svg>
+  <div
+    className="css-1h90s6r-Chat"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1ing70r-MuiTypography-root-BaseText"
+    >
+      Chat
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1a6atuo-MuiTypography-root-BaseText"
+    >
+      Share your concerns and questions with the Admin
+    </p>
+  </div>
+  <div
+    className="css-1bzwkyt-Chat"
+  >
+    <div
+      className="css-nqsikg-Chat"
+    >
+      <span
+        className="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-1ag5kwf-MuiCircularProgress-root"
+        role="progressbar"
+        style={
+          Object {
+            "height": 40,
+            "width": 40,
+          }
+        }
+      >
+        <svg
+          className="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+          viewBox="22 22 44 44"
+        >
+          <circle
+            className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+            cx={44}
+            cy={44}
+            fill="none"
+            r={20.2}
+            strokeWidth={3.6}
+            style={Object {}}
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    className="css-1d1ygrd-Chat"
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <section
+      className="css-4qzvqz-FormFields"
+    >
+      <textarea
+        className="css-16gir0u-TextAreaControl"
+        name="textArea"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Start typing..."
+        rows={2}
+        value=""
+      />
+    </section>
+    <button
+      className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled css-ugn8iu-MuiButtonBase-root-MuiButton-root-AppButton"
+      disabled={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onContextMenu={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={-1}
+      type="button"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-3cwtjx-MuiTypography-root-BaseText"
+      >
+        Send comment
+      </p>
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DrugsPieChart component test Should render correctly 1`] = `
+<div
+  className="recharts-wrapper css-t9zoz8-DrugsPieChart"
+  role="region"
+  style={
+    Object {
+      "cursor": "default",
+      "height": 98,
+      "position": "relative",
+      "width": 98,
+    }
+  }
+>
+  <svg
+    className="recharts-surface"
+    cx="50%"
+    cy="50%"
+    height={98}
+    viewBox="0 0 98 98"
+    width={98}
+  >
+    <title />
+    <desc />
+    <defs>
+      <clipPath
+        id="recharts3-clip"
+      >
+        <rect
+          height={88}
+          width={88}
+          x={5}
+          y={5}
+        />
+      </clipPath>
+    </defs>
+  </svg>
+</div>
+`;

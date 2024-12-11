@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TermsOfUse component test Should render correctly 1`] = `
+<div
+  className="css-7co83u-BasePage"
+>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-177n4ga-MuiTypography-root-BaseText"
+  >
+    TBKB Database Access Agreement
+  </p>
+  <div
+    className="css-1y50k9a-AppPaper"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      WHEREAS Freunde von GISAID e.V. ("GISAID") maintains a global database for influenza gene sequences along with associated data, including virological, clinical, epidemiological and demographic information (if available) for all influenza viruses, including but not limited to H5N1 sequences, (the "GISAID EpiFlu™ Database") for the purpose of facilitating the sharing, research and investigation of such sequences and associated data.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      NOW, therefore, this Database Access Agreement (the "Agreement") is entered into by and between the undersigned ("You") and GISAID.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      Access to the GISAID EpiFlu™ Database, Data. Access to, and use of, the GISAID EpiFlu™ Database and Data, as defined herein, is governed by this Agreement. By accessing or otherwise using the GISAID EpiFlu™ Database, whether as a provider or user of Data, You accept and agree to be bound by the terms of this Agreement. For purposes of this Agreement, the term "Data" means any and all (i) sequence data and other associated data and information contained in the GISAID EpiFlu™ Database pertaining to influenza viruses, (ii) any annotations, corrections, updates, modifications, improvements, derivatives or other enhancements to any such data contained in the GISAID EpiFlu™ Database, and (iii) any safety information relevant to use of the data or to regulatory approval of vaccines or other therapies that embody or utilize the data contained in the GISAID EpiFlu™ Database.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      License Terms. You are hereby granted a non-exclusive, worldwide, royalty-free, non-transferable, and revocable license to access and use the GISAID EpiFlu™ Database and Data solely in accordance with this Agreement in all its terms. Without limiting the foregoing, your access to and use of the GISAID EpiFlu™ Database and Data is subject to the following terms and conditions:
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      Use of Any Data Provided by You. You hereby grant (i) GISAID and (ii) all users and Data providers that have agreed to be bound by the GISAID EpiFlu™ Database Access Agreement and that continue to abide by its terms (collectively "Authorized Users") a non-exclusive, worldwide, royalty-free, and irrevocable license to collect, store, reproduce, access, modify, display, distribute, coordinate, arrange, and otherwise use the Data submitted by You as contemplated by this Agreement. This Agreement does not transfer any other rights or ownership interests in the Data.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      Use of the GISAID EpiFlu™ Database and Data. You acknowledge and agree that you may not access and use the GISAID EpiFlu™ Database or collect, store, reproduce, access, modify, display, distribute, coordinate, arrange, and otherwise use the Data in connection with any other database related to influenza gene sequences, including, without limitation, by enabling others to access or use the Data through a separate portal or across a network of institutions, except for operators duly authorized by GISAID.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      Acknowledgement, co-authorship. You may use Data to author, co-author or publish results obtained from your analyses of relevant Data, provided that any such published results acknowledge, as the original source of the Data, the laboratory where the clinical specimen(s) and/or virus isolate(s) were first obtained ("Originating Laboratory") and if applicable, the laboratory where Data have been generated from the isolate(s) and/or specimen(s) received and submitted to the GISAID EpiFlu™ Database. ("Submitting Laboratory"). Originating Laboratory and Submitting Laboratory may be in the same country, or in a different country and should be identified by geographic location and address. The listing of any Originating Laboratory or Submitting Laboratory does in no way imply that You, an Authorized User, or any other entity has relinquished its ownership rights, in cases where such rights might exist.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      Distribution of Data. Subject to applicable law, You agree not to distribute Data to any third party other than Authorized Users as contemplated by this Agreement.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      Collaboration. You agree to make best efforts to collaborate with representatives of the Originating Laboratory responsible for obtaining the specimen(s) and involve them in such analyses and further research using such Data.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      Privacy. As a condition of registration and use of the GISAID EpiFlu™ Database, GISAID may collect contact information, such as your name, employer or affiliation, work address, and email address (collectively, "Contact Information"). You agree to notify GISAID of any changes in your Contact Information. Solely for the purposes of promoting collaboration and facilitating proper acknowledgment, You authorize GISAID to disclose only your name and employer or affiliation to Authorized Users. You further authorize GISAID to disclose your Contact Information to third party service providers with whom it has entered confidentiality agreements for the sole purpose of administering the GISAID EpiFlu™ Database. GISAID will not disclose your Contact Information to any other third party except as required by applicable law, the order or requirement of a court, administrative agency or other governmental body, or in the course of litigation.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      Intellectual Property. You acknowledge and agree that:
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      It is your sole responsibility to obtain any additional authorization or license as may be necessary for your use of the Data.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      You agree not to offer or impose any terms on the Data that alter or restrict either the terms of this Agreement or the rights of Authorized Users granted hereunder. Subject only to any pre-existing third party rights on the Data, You acknowledge and agree that all Data will be freely shared among and used by all other Authorized Users.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      You understand that Authorized Users intend to use the Data provided by You for research purposes and/or for the development, testing and dissemination of interventions such as vaccines, diagnostics and therapeutics.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      Prevention of Use by Third Parties. Nothing in this Agreement limits or otherwise affects your rights to restrict or prevent persons not bound by the GISAID EpiFlu™ Database Access Agreement from using any Data contributed by You to the GISAID EpiFlu™ Database or technology derived from it or required to use it. However, You agree to inform such persons that said Data or technology is available through the GISAID EpiFlu™ Database, and such persons may not be prevented by You (by any contractual or other means) from executing the GISAID EpiFlu™ Database Access Agreement in order to become an Authorized User in accordance with all its terms.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      Use of the Database Platform. You acknowledge and agree that:
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      The GISAID EpiFlu™ Database utilizes a proprietary platform and software technology (collectively, the "Database Platform") owned by GISAID and/or third party contractors.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      You will not copy, reverse engineer, disseminate or disclose any part of the Database Platform.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      You will not disseminate or utilize any computer viruses, Trojan horses, worms, time bombs, malicious code or other programming routines that are intended to damage, disrupt, intercept, expropriate or interfere with all or any part of the GISAID EpiFlu™ Database, Database Platform, Data or Contact Information.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      Your rights upon suspension of access. Without limitation of any other term or condition of this Agreement, You acknowledge and agree that GISAID may, subject to any applicable laws, suspend access to all or any part of the GISAID EpiFlu™ Database and/or Data without any prior notice or liability to You.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      Representations, Warranties and Disclaimer. The GISAID EpiFlu™ Database, Database Platform and Data are provided to You "as-is" and without warranties of any kind, whether express, implied, statutory or otherwise, including, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, or the absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not discoverable. (Notwithstanding the foregoing, some jurisdictions do not allow the exclusion of implied warranties, so such exclusion may not apply to You).
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      Limitation on Liability. Except to the extent required by applicable law, in no event will GISAID be liable to You on any legal theory for any special, incidental, consequential, punitive or exemplary damages arising out of this Agreement or the use of the GISAID EpiFlu™ Database, Database Platform or Data, even if GISAID has been advised of the possibility of such damages. In no event shall GISAID, its licensors, or service providers be liable for special, consequential, incidental, indirect or punitive loss, damages or expenses whether arising in contract or tort (including but not limited to lost profits, savings, data, the cost of recreating lost data, interruption of business, or costs of procurement of substitute goods or services), even if GISAID, its licensors, or service providers have been advised of such risk.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      Termination. Your rights and privileges under this Agreement will terminate automatically and without need for written notice upon any breach by You of any term of this Agreement, in which event You shall immediately cease any access to, or use of, the GISAID EpiFlu™ Database, Database Platform, and Data (other than Data contributed by You). GISAID may also terminate this Agreement for any or no reason upon thirty (30) days advance notice to You. Notwithstanding the foregoing, GISAID′s rights and privileges under Sections 2, 3, 4, 5, 6, 7, and 9 will under all circumstances survive any termination of this Agreement.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      Legal Compliance. You agree that your use of the GISAID EpiFlu™ Database, Database Platform, and Data will fully comply with all applicable laws and regulations, including but not limited to laws relating to the export and import of technology, personal privacy, and human use of any product, material or substance derived using the GISAID EpiFlu™ Database. GISAID and other Authorized Users of the Data are not liable for any failure in such compliance by You. You acknowledge and agree that You are solely responsible for determining the legality and appropriateness of your acts or omissions in connection with the GISAID EpiFlu™ Database, Database Platform, and Data.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      Responsibility for Use. You acknowledge that the GISAID EpiFlu™ Database is a tool to be used in conjunction with good and reasonable business and scientific judgment by competent personnel only.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      Miscellaneous.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      You may not assign or transfer any rights or obligations under this Agreement without GISAID′s prior written consent.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      If any provision of this Agreement is invalid or unenforceable under applicable law, it shall not affect the validity or enforceability of the remainder of the terms of this Agreement, and without further action by the parties to this Agreement, such provision shall be reformed to the minimum extent necessary to make such provision valid and enforceable.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      No term or provision of this Agreement shall be deemed waived and no breach consented to unless such waiver or consent is in writing and signed by the party to be charged with such waiver or consent.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      This Agreement constitutes the entire agreement between You and GISAID with respect to your use of the GISAID EpiFlu™ Database, Database Platform and Data; provided, however, that GISAID may modify this Database Access Agreement from time to time and may provide notice of such modifications via the Contact Information provided under Section 2(f) of this Agreement. You agree that such notice or publication of any such modification through the GISAID website shall constitute adequate written notice of such modification, and that your continued use of the GISAID EpiFlu™ Database or Data following such notice or such publication shall constitute your binding acceptance of, and agreement to, any such modification.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      All disputes arising out of or in connection with this Agreement that involve a Data provider shall be governed by such Data provider's local law.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      All disputes arising out of or in connection with this Agreement that involve a Data user shall be finally settled under the Rules of Arbitration of the International Chamber of Commerce by one or more arbitrators appointed in accordance with such Rules. The place of arbitration shall be the Federal Republic of Germany and arbitral tribunal shall decide the dispute on the basis of the laws of the Federal Republic of Germany. The language of the arbitration proceedings shall be English. The arbitral tribunal shall decide the dispute on the basis of the provisions of this Agreement and otherwise ex aequo et bono without regard to the laws of any specific jurisdiction.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      By clicking the "I Agree" button below, You acknowledge that You have reviewed this Agreement; that You intend to be legally bound thereby; and that this electronic signature has the same legal force and effect as a handwritten signature.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1dmeqf6-MuiTypography-root-BaseText"
+    >
+      Effective: March 16, 2011
+    </p>
+  </div>
+</div>
+`;

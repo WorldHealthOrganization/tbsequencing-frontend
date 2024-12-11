@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PackageDataGridCell component test Should render correctly 1`] = `
+<td
+  aria-sort={null}
+  className="MuiTableCell-root MuiTableCell-sizeMedium css-fdrl5-MuiTableCell-root-PackageDataGridCell"
+>
+  mockContent
+</td>
+`;

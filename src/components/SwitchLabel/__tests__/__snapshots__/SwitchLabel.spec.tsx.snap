@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwitchLabel component test Should render correctly 1`] = `
+<div
+  className="css-1vjh161-SwitchLabel"
+>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-cimhyc-MuiTypography-root-BaseText"
+  >
+    Read and agree with service 
+  </p>
+  <a
+    className="css-k9b93x-SwitchLabel"
+    href="/terms-of-use"
+    target="_blank"
+  >
+     terms and conditions
+  </a>
+</div>
+`;

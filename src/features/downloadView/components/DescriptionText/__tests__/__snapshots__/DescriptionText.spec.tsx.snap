@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DescriptionText Should render correctly 1`] = `
+<div
+  className="css-v8x67m-DescriptionText"
+>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-1bbrlc3-MuiTypography-root-BaseText"
+  >
+    
+        Please find available dataset for download in CSV format here.
+
+  </p>
+</div>
+`;

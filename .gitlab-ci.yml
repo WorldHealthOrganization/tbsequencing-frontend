@@ -1,0 +1,81 @@
+include:
+- file: projects/.build_static.yml
+  project: seqtreat/output-2/tbkb-pipelines
+  ref:  main
+- file: projects/.deploy_static.yml
+  project: seqtreat/output-2/tbkb-pipelines
+  ref:  main
+- template: Security/SAST.gitlab-ci.yml
+
+
+variables:
+  FF_NETWORK_PER_BUILD: "1" # allow service containers to reach each other
+  DOCKER_TLS_CERTDIR: ""
+  DOCKER_DRIVER: overlay2
+  REACT_APP_NODE_ENV: "development"
+  TSC_COMPILE_ON_ERROR: "true"
+  ESLINT_NO_DEV_ERRORS: "true"
+  API_VERSION: "v1"
+
+stages:
+- test
+- testing
+- build_static
+- deploy_static
+
+sast:
+  stage: test
+
+eslint:
+  stage: test
+  image: node:17.4.0
+  script:
+    - npm install eslint
+    - ./node_modules/.bin/eslint .
+
+testing:
+  stage: testing
+  image: node:17.4.0
+  script:
+    - npm install
+    - npm test
+
+build_static_prod-f4:
+  stage: build_static
+  extends:
+    - .build_static_frontend
+  artifacts:
+    paths:
+      - build/
+    expire_in: 1 day
+  environment: prod-f4
+
+deploy_static_prod-f4:
+  stage: deploy_static
+  extends:
+    - .deploy_static_frontend
+  dependencies:
+    - build_static_prod-f4
+  needs:
+    - build_static_prod-f4
+  environment: prod-f4
+
+build_static_test-sec:
+  stage: build_static
+  extends:
+    - .build_static_frontend
+  artifacts:
+    paths:
+      - build/
+    expire_in: 1 day
+  environment: test-sec
+
+deploy_static_test-sec:
+  stage: deploy_static
+  extends:
+    - .deploy_static_frontend
+  dependencies:
+    - build_static_test-sec
+  needs:
+    - build_static_test-sec
+  environment: test-sec

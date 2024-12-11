@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MutationsCatalogue Should render correctly 1`] = `
+<div
+  className="css-x3ah86-MutationsCatalogue"
+>
+  <div
+    className="css-12mco17-MutationsCatalogue"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-15lj30p-MuiTypography-root-BaseText"
+    >
+      Download files
+    </p>
+    <div
+      className="css-plr8i0-MutationsCatalogue"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-vtlwgn-MuiTypography-root-BaseText"
+      >
+        Please find below all outputs of the Mutation catalogue 2023 update. These files are identical to those available from the WHO website.
+      </p>
+      <div>
+        <a
+          download="Report"
+          href="data:text/csv;charset=utf-8,﻿email-sent.png"
+          onClick={[Function]}
+          target="_self"
+        />
+        <a
+          download="Excel tables"
+          href="data:text/csv;charset=utf-8,﻿email-sent.png"
+          onClick={[Function]}
+          target="_self"
+        />
+        <a
+          download="VCF file"
+          href="data:text/csv;charset=utf-8,﻿email-sent.png"
+          onClick={[Function]}
+          target="_self"
+        />
+      </div>
+      <button
+        className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root css-1ve9vu2-MuiButtonBase-root-MuiButton-root-AppButton"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-3cwtjx-MuiTypography-root-BaseText"
+        >
+          Download All
+        </p>
+      </button>
+    </div>
+  </div>
+  <div
+    className="css-1mhavnj-MutationsCatalogue"
+  >
+    <div
+      className="css-15a8d1j-MutationsCatalogue"
+    >
+      <div
+        className="css-yicdw8-MutationsCatalogue"
+      >
+        Report
+      </div>
+      <div
+        className="css-ftu0pv-MutationsCatalogue"
+      >
+        <div
+          className="css-1711uy7-MutationsCatalogue"
+        >
+          PDF report of the Mutation Catalogue 2023 update initiative
+        </div>
+        <a
+          className="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1ps4owl-MuiTypography-root-MuiLink-root"
+          download="w3logo"
+          href="email-sent.png"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          target="_blank"
+        >
+          <button
+            className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+            disabled={false}
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-18vxxzc-MuiSvgIcon-root-MutationsCatalogue"
+              data-testid="FileDownloadIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"
+              />
+            </svg>
+          </button>
+        </a>
+      </div>
+    </div>
+    <div
+      className="css-15a8d1j-MutationsCatalogue"
+    >
+      <div
+        className="css-yicdw8-MutationsCatalogue"
+      >
+        Excel tables
+      </div>
+      <div
+        className="css-ftu0pv-MutationsCatalogue"
+      >
+        <div
+          className="css-1711uy7-MutationsCatalogue"
+        >
+          Data tables of raw output from the Mutation Catalogue 2023 update initiative
+        </div>
+        <a
+          className="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1ps4owl-MuiTypography-root-MuiLink-root"
+          download="w3logo"
+          href="email-sent.png"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          target="_blank"
+        >
+          <button
+            className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+            disabled={false}
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-18vxxzc-MuiSvgIcon-root-MutationsCatalogue"
+              data-testid="FileDownloadIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"
+              />
+            </svg>
+          </button>
+        </a>
+      </div>
+    </div>
+    <div
+      className="css-15a8d1j-MutationsCatalogue"
+    >
+      <div
+        className="css-yicdw8-MutationsCatalogue"
+      >
+        VCF file
+      </div>
+      <div
+        className="css-ftu0pv-MutationsCatalogue"
+      >
+        <div
+          className="css-1711uy7-MutationsCatalogue"
+        >
+          Variant Call Format (VCF) file linking genomic coordinates to variant categories.
+        </div>
+        <a
+          className="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1ps4owl-MuiTypography-root-MuiLink-root"
+          download="w3logo"
+          href="email-sent.png"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          target="_blank"
+        >
+          <button
+            className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+            disabled={false}
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-18vxxzc-MuiSvgIcon-root-MutationsCatalogue"
+              data-testid="FileDownloadIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"
+              />
+            </svg>
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

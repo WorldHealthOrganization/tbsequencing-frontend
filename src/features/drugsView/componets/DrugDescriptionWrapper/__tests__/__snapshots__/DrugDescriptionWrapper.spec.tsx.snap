@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DrugDescriptionWrapper Should render correctly 1`] = `
+<div>
+  <div
+    className="css-n5nz1s-DrugDescriptionWrapper"
+  >
+    <button
+      className="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation MuiButtonBase-root css-12orvlh-MuiButtonBase-root-MuiButton-root-AppButton"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onContextMenu={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-3cwtjx-MuiTypography-root-BaseText"
+      >
+        Rifampicin
+      </p>
+      <span
+        className="MuiButton-endIcon MuiButton-iconSizeMedium css-9tj150-MuiButton-endIcon"
+      >
+        <span
+          aria-hidden={true}
+          className="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-kp9ftd-MuiIcon-root"
+        >
+          keyboard_arrow_down_icon
+        </span>
+      </span>
+    </button>
+  </div>
+  <div
+    className="css-h030sg-DrugDescriptionWrapper"
+  >
+    <div
+      className="css-1e73m8j-DrugDescriptionWrapper"
+    >
+      <div
+        className="css-k2r5lr-AppPaper"
+      >
+        <div>
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-5th3yp-MuiTypography-root-BaseText"
+          >
+            Gene-drug resistance associations
+          </p>
+        </div>
+        <div
+          className="css-o35ygq-AssociationTableGrouped"
+        >
+          No associated data with this drug
+        </div>
+        <div
+          className="css-o35ygq-AssociationTableGrouped"
+        >
+          No associated data with this drug
+        </div>
+      </div>
+    </div>
+    child
+  </div>
+</div>
+`;

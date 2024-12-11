@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OverflowMuiTooltip component test Should render correctly 1`] = `
+<div
+  aria-label="mock"
+  aria-labelledby={null}
+  className=" css-1nv4tgy-OverflowMuiTooltip"
+  data-mui-internal-clone-element={true}
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onTouchEnd={[Function]}
+  onTouchStart={[Function]}
+>
+  mock
+</div>
+`;

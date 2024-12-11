@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmailWasSent component test Should render correctly 1`] = `
+<div>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-fgh2mf-MuiTypography-root-BaseText"
+  >
+    Your request has been processed
+  </p>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-fgh2mf-MuiTypography-root-BaseText"
+  >
+    If a user with this email exists, you will receive an email with further instructions
+  </p>
+  <div
+    className="css-1oppeth-EmailWasSent"
+  >
+    <img
+      alt="email was sent"
+      className="css-18dv6dx-EmailWasSent"
+      src="email-sent.png"
+    />
+  </div>
+</div>
+`;

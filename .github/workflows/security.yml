@@ -1,0 +1,43 @@
+name: 'Security'
+
+on:
+  push:
+    branches: [ "main" ]
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+
+  nodejs-scan-sast:
+    runs-on: ubuntu-latest
+    container:
+      image: registry.gitlab.com/security-products/nodejs-scan:4
+    steps:
+    # Checkout the repository to the GitHub Actions runner
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Scan
+      run: /analyzer run
+    - name: Upload scan report
+      uses: actions/upload-artifact@v4
+      with:
+        name: scan-report-nodejs
+        path: gl-sast-report.json
+
+  semgrep:
+    runs-on: ubuntu-latest
+    container:
+      image: registry.gitlab.com/security-products/semgrep:4
+    steps:
+    # Checkout the repository to the GitHub Actions runner
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Scan
+      run: /analyzer run
+    - name: Upload scan report
+      uses: actions/upload-artifact@v4
+      with:
+        name: scan-report-semgrep
+        path: gl-sast-report.json

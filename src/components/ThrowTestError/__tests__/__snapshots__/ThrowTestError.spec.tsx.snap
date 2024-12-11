@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThrowTestError component test Should render correctly 1`] = `
+<div
+  className="css-xn17ji-BasePage"
+>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-177n4ga-MuiTypography-root-BaseText"
+  >
+    This is a test error page to test Sentry.io
+  </p>
+  <button
+    className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root css-1sfzpsj-MuiButtonBase-root-MuiButton-root-AppButton"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onContextMenu={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-3cwtjx-MuiTypography-root-BaseText"
+    >
+      Press this button to throw JS error
+    </p>
+  </button>
+</div>
+`;

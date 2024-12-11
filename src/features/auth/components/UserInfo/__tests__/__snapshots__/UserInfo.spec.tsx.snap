@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserInfo component test Should render correctly 1`] = `
+<div
+  className="css-xn17ji-BasePage"
+>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-177n4ga-MuiTypography-root-BaseText"
+  >
+    Profile
+  </p>
+  <div
+    className="css-3skiuw-UserInfo"
+  />
+</div>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumbs component test Should render correctly 1`] = `
+<nav
+  className="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-1x5o0e1-MuiTypography-root-MuiBreadcrumbs-root-Breadcrumbs"
+>
+  <ol
+    className="MuiBreadcrumbs-ol css-4pdmu4-MuiBreadcrumbs-ol"
+  >
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        className="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1cmksfb-MuiTypography-root-MuiLink-root"
+        href="mockHref"
+        onBlur={[Function]}
+        onFocus={[Function]}
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1nrkhfx-MuiTypography-root-BaseText"
+        >
+          mockLabel
+        </p>
+      </a>
+    </li>
+  </ol>
+</nav>
+`;

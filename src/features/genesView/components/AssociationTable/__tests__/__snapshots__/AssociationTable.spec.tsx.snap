@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AssociationTable Should render correctly 1`] = `
+<div
+  className="css-9j8ib4-AppPaper"
+>
+  <div>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-5th3yp-MuiTypography-root-BaseText"
+    >
+      Table header
+    </p>
+  </div>
+  <div
+    className="css-hxjvcr-AssociationTable"
+  >
+    <div
+      className="css-1pwa69v-AssociationTable"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+      />
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+      >
+        INH, ZLD
+      </p>
+    </div>
+    <div
+      className="css-1pwa69v-AssociationTable"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+      />
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+      >
+        INH, ZLD
+      </p>
+    </div>
+    <div
+      className="css-1pwa69v-AssociationTable"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+      />
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+      >
+        INH, ZLD
+      </p>
+    </div>
+    <div
+      className="css-1pwa69v-AssociationTable"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+      />
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+      >
+        INH, ZLD
+      </p>
+    </div>
+  </div>
+</div>
+`;

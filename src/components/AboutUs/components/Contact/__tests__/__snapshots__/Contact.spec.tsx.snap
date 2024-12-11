@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact component test Should render correctly 1`] = `
+<div
+  className="css-vtpaov-Contact"
+>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-17mv985-MuiTypography-root-BaseText"
+  />
+  <a
+    className="css-1tbc68-Contact"
+    href="mailto: undefined"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-zzhh7v-MuiTypography-root-BaseText"
+    />
+  </a>
+  <a
+    className="css-1tbc68-Contact"
+    rel="noreferrer"
+    target="_blank"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-zzhh7v-MuiTypography-root-BaseText"
+    />
+  </a>
+</div>
+`;

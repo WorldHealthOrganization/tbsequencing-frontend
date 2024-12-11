@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResistanceDataAccordion component test Should render correctly 1`] = `
+<div
+  className="css-1udyuk7-ResistanceDataSamplesHeaderRow"
+>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-1134uzf-MuiTypography-root-BaseText"
+  >
+    mockTitle
+  </p>
+  <div
+    className="css-zuupt0-ResistanceDataSamplesHeaderRow"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-9wau7z-MuiTypography-root-BaseText"
+    >
+      10 items
+    </p>
+    <button
+      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+      data-testid="expand-btn"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[MockFunction]}
+      onContextMenu={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1mqn5fw-MuiSvgIcon-root"
+        data-testid="ArrowDropDownIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="m7 10 5 5 5-5z"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;

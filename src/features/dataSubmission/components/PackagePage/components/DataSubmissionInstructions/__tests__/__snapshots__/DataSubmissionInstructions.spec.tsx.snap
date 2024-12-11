@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataSubmissionInstructions component test Should render correctly 1`] = `
+<div
+  className="css-scjdyf-DataSubmissionInstructions"
+>
+  <div
+    className="css-1f0od2t-DataSubmissionInstructions"
+  >
+    <button
+      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onContextMenu={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-10d54gz-MuiSvgIcon-root"
+        data-testid="CloseIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+        />
+      </svg>
+    </button>
+  </div>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-1thlxsv-MuiTypography-root-BaseText"
+  >
+    Instructions
+  </p>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-5th3yp-MuiTypography-root-BaseText"
+  >
+    This is the instruction that will help you to work with system correct
+  </p>
+  <div
+    className="css-6cm2mt-DataSubmissionInstructions"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-o6df3b-MuiTypography-root-BaseText"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, turpis vel blandit luctus, augue tellus cursus leo, quis semper massa sapien quis augue. Phasellus sollicitudin, metus sit amet hendrerit maximus, nisi justo tincidunt lacus, quis tempor mauris magna vitae nisl. Sed sagittis sem vitae nibh rhoncus convallis ac ac arcu. Sed a mi tristique dolor gravida ornare in vel risus. Nulla metus risus, sagittis ut orci vitae, luctus sagittis diam. Donec vel rhoncus ex, sit amet eleifend orci. Aliquam arcu justo, luctus eu semper ac, aliquet vel libero. Etiam et lobortis metus.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-o6df3b-MuiTypography-root-BaseText"
+    >
+      Sed fringilla venenatis dapibus. Proin mollis eu mauris porttitor auctor. Phasellus mauris nulla, faucibus non mauris eu, fringilla imperdiet tellus. Pellentesque a hendrerit quam. Nulla sodales vestibulum viverra. Mauris ac faucibus augue. In ac velit nec ante tristique efficitur. Curabitur quis pellentesque nunc, eget ullamcorper arcu. Nam accumsan odio sit amet odio mollis accumsan. Ut in purus sapien. Nunc cursus ante ut eleifend euismod. Phasellus ut pretium ex. Etiam id ex eleifend, feugiat nisi sed, tristique mauris. Ut ligula ligula, interdum nec eleifend sed, tempor in orci.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-o6df3b-MuiTypography-root-BaseText"
+    >
+      Ut iaculis urna nec orci finibus, non auctor tortor interdum. Maecenas risus orci, gravida id consectetur at, dapibus sed odio. Integer aliquet, massa a pulvinar cursus, est nunc imperdiet tortor, sit amet molestie nisl diam scelerisque arcu. Phasellus at egestas mauris. Aenean accumsan nulla et purus elementum placerat. Aliquam sem neque, mollis eget tincidunt at, hendrerit a massa. Nunc id dui ac dolor fermentum ornare. Morbi faucibus at eros vel mollis. In commodo ligula quis tristique scelerisque. Ut ex sapien, sagittis et lectus et, sagittis ullamcorper neque. Nulla vel metus eu sem molestie bibendum. Praesent in volutpat lectus. Donec libero leo, sollicitudin in ligula nec, iaculis dictum nisl. Phasellus eget mollis eros.
+    </p>
+  </div>
+  <button
+    className="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation MuiButtonBase-root css-11ged7r-MuiButtonBase-root-MuiButton-root-AppButton"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onContextMenu={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+    >
+      <span
+        aria-hidden={true}
+        className="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-kp9ftd-MuiIcon-root"
+      >
+        file_download_icon
+      </span>
+    </span>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-3cwtjx-MuiTypography-root-BaseText"
+    >
+      Download Template
+    </p>
+  </button>
+</div>
+`;

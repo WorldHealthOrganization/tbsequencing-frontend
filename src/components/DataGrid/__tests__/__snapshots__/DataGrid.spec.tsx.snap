@@ -1,0 +1,496 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataGrid component test Should render correctly 1`] = `
+<div>
+  <div
+    className="css-1dqm8h-AppPaper"
+  >
+    <div
+      className="css-zuqjgc-ExportButton"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-5th3yp-MuiTypography-root-BaseText"
+      >
+        Export CSV Data
+      </p>
+      <div
+        className="css-uhrw2b-ExportButton"
+      >
+        <button
+          className="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation MuiButtonBase-root css-sfprtt-MuiButtonBase-root-MuiButton-root-AppButton"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+          >
+            <span
+              aria-hidden={true}
+              className="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-kp9ftd-MuiIcon-root"
+            >
+              file_download
+            </span>
+          </span>
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-3cwtjx-MuiTypography-root-BaseText"
+          >
+            Download
+          </p>
+        </button>
+        <a
+          download="Rifampicin"
+          href="data:text/csv;charset=utf-8,﻿\\"Gene\\",\\"Variant\\",\\"Consequence\\""
+          onClick={[Function]}
+          target="_self"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root css-11xur9t-MuiPaper-root-MuiTableContainer-root"
+  >
+    <div
+      className="css-u0qmqf-DataGrid"
+    >
+      <table
+        className="MuiTable-root css-adcf9a-MuiTable-root"
+        role={null}
+      >
+        <thead
+          className="MuiTableHead-root css-cwxlwz-MuiTableHead-root"
+          role={null}
+        >
+          <tr
+            className="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
+            role={null}
+          >
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignLeft MuiTableCell-sizeMedium css-1fhv7sw-MuiTableCell-root"
+              scope="col"
+            >
+              <div
+                className="css-1qyj6ee-Thead"
+              >
+                <span
+                  className="css-qcmszo-TableHeader"
+                >
+                  Gene
+                </span>
+                <div
+                  className="css-trc57z-Thead"
+                >
+                  <button
+                    className="css-13hx71u-Thead"
+                    data-testid="filter-button-geneName"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden={true}
+                      className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1o8iwtf-MuiSvgIcon-root"
+                      color="#009ADE"
+                      data-testid="SearchIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </th>
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignLeft MuiTableCell-sizeMedium css-1fhv7sw-MuiTableCell-root"
+              scope="col"
+            >
+              <div
+                className="css-1qyj6ee-Thead"
+              >
+                <span
+                  className="css-qcmszo-TableHeader"
+                >
+                  Variant
+                </span>
+                <div
+                  className="css-trc57z-Thead"
+                >
+                  <button
+                    className="css-13hx71u-Thead"
+                    data-testid="filter-button-variantName"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden={true}
+                      className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1o8iwtf-MuiSvgIcon-root"
+                      color="#009ADE"
+                      data-testid="SearchIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </th>
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignLeft MuiTableCell-sizeMedium css-1fhv7sw-MuiTableCell-root"
+              scope="col"
+            >
+              <div
+                className="css-1qyj6ee-Thead"
+              >
+                <span
+                  className="css-qcmszo-TableHeader"
+                >
+                  Consequence
+                </span>
+                <div
+                  className="css-trc57z-Thead"
+                >
+                  <button
+                    className="css-13hx71u-Thead"
+                    data-testid="filter-button-consequence"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden={true}
+                      className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1o8iwtf-MuiSvgIcon-root"
+                      color="#009ADE"
+                      data-testid="SearchIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          className="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+          role={null}
+        >
+          <tr
+            className="MuiTableRow-root css-168le6z-MuiTableRow-root"
+            role={null}
+          >
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                rpoC
+              </span>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                NC_000962.3-760800-G-A
+              </span>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                upstream
+              </span>
+            </td>
+          </tr>
+          <tr
+            className="MuiTableRow-root css-168le6z-MuiTableRow-root"
+            role={null}
+          >
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                rpoC
+              </span>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                NC_000962.3-760800-G-A
+              </span>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                upstream
+              </span>
+            </td>
+          </tr>
+          <tr
+            className="MuiTableRow-root css-168le6z-MuiTableRow-root"
+            role={null}
+          >
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                rpoC
+              </span>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                NC_000962.3-760800-G-A
+              </span>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                upstream
+              </span>
+            </td>
+          </tr>
+          <tr
+            className="MuiTableRow-root css-168le6z-MuiTableRow-root"
+            role={null}
+          >
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                rpoC
+              </span>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                NC_000962.3-760800-G-A
+              </span>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                upstream
+              </span>
+            </td>
+          </tr>
+          <tr
+            className="MuiTableRow-root css-168le6z-MuiTableRow-root"
+            role={null}
+          >
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                rpoC
+              </span>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                NC_000962.3-760800-G-A
+              </span>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                upstream
+              </span>
+            </td>
+          </tr>
+          <tr
+            className="MuiTableRow-root css-168le6z-MuiTableRow-root"
+            role={null}
+          >
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                rpoC
+              </span>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                NC_000962.3-760800-G-A
+              </span>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                upstream
+              </span>
+            </td>
+          </tr>
+          <tr
+            className="MuiTableRow-root css-168le6z-MuiTableRow-root"
+            role={null}
+          >
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                rpoC
+              </span>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                NC_000962.3-760800-G-A
+              </span>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                upstream
+              </span>
+            </td>
+          </tr>
+          <tr
+            className="MuiTableRow-root css-168le6z-MuiTableRow-root"
+            role={null}
+          >
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                rpoC
+              </span>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                NC_000962.3-760800-G-A
+              </span>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                upstream
+              </span>
+            </td>
+          </tr>
+          <tr
+            className="MuiTableRow-root css-168le6z-MuiTableRow-root"
+            role={null}
+          >
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                rpoC
+              </span>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                NC_000962.3-760800-G-A
+              </span>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                upstream
+              </span>
+            </td>
+          </tr>
+          <tr
+            className="MuiTableRow-root css-168le6z-MuiTableRow-root"
+            role={null}
+          >
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                rpoC
+              </span>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                NC_000962.3-760800-G-A
+              </span>
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-157ha60-MuiTableCell-root"
+            >
+              <span>
+                upstream
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;

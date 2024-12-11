@@ -1,0 +1,965 @@
+[
+  {
+    "ISO_A3": "AND",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "ARE",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "AFG",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "ATG",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "AIA",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "ALA",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "ALB",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "ARM",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "ANT",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "AGO",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "ARG",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "ASM",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "AUT",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "AUS",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "ABW",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "AZE",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "BIH",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "BRB",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "BGD",
+    "WHO_REGION": "SEA"
+  },
+  {
+    "ISO_A3": "BEL",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "BFA",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "BGR",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "BHR",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "BDI",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "BEN",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "BMU",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "BRN",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "BOL",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "BRA",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "BHS",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "BTN",
+    "WHO_REGION": "SEA"
+  },
+  {
+    "ISO_A3": "BWA",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "BLR",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "BLZ",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "CAN",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "COD",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "CAF",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "COG",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "CHE",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "CIV",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "COK",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "CHL",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "CMR",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "CHN",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "COL",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "CRI",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "CUB",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "CPV",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "CUW",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "CYP",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "CZE",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "DEU",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "DJI",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "DNK",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "DMA",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "DOM",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "DZA",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "ECU",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "EST",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "EGY",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "ERI",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "ESP",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "ETH",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "FIN",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "FJI",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "FSM",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "FRA",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "GAB",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "GBR",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "GRD",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "GEO",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "GHA",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "GRL",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "GMB",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "GIN",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "GNQ",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "GRC",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "GTM",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "GUM",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "GNB",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "GUY",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "HKG",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "HND",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "HRV",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "HTI",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "HUN",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "IDN",
+    "WHO_REGION": "SEA"
+  },
+  {
+    "ISO_A3": "IRL",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "ISR",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "IND",
+    "WHO_REGION": "SEA"
+  },
+  {
+    "ISO_A3": "IRQ",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "IRN",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "ISL",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "ITA",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "JAM",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "JOR",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "JPN",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "KEN",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "KGZ",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "KHM",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "KIR",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "COM",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "KNA",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "PRK",
+    "WHO_REGION": "SEA"
+  },
+  {
+    "ISO_A3": "KOR",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "KWT",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "CYM",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "KAZ",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "LAO",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "LBN",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "LCA",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "LKA",
+    "WHO_REGION": "SEA"
+  },
+  {
+    "ISO_A3": "LBR",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "LSO",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "LTU",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "LUX",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "LVA",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "LBY",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "MAR",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "MCO",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "MDA",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "MNE",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "MDG",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "MHL",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "MKD",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "MLI",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "MMR",
+    "WHO_REGION": "SEA"
+  },
+  {
+    "ISO_A3": "MNG",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "MAC",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "MNP",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "MRT",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "MSR",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "MLT",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "MUS",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "MDV",
+    "WHO_REGION": "SEA"
+  },
+  {
+    "ISO_A3": "MWI",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "MEX",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "MYS",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "MOZ",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "NAM",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "NCL",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "NER",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "NGA",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "NIC",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "NLD",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "NOR",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "NPL",
+    "WHO_REGION": "SEA"
+  },
+  {
+    "ISO_A3": "NRU",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "NIU",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "NZL",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "OMN",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "PAN",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "PER",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "PYF",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "PNG",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "PHL",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "PAK",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "POL",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "PRI",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "PSE",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "PRT",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "PLW",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "PRY",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "QAT",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "ROU",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "SRB",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "RUS",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "RWA",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "SAU",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "SLB",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "SYC",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "SDN",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "SWE",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "SGP",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "SVN",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "SVK",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "SLE",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "SMR",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "SEN",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "SOM",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "SUR",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "SSD",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "STP",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "SLV",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "SXM",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "SYR",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "SWZ",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "TCA",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "TCD",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "TGO",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "THA",
+    "WHO_REGION": "SEA"
+  },
+  {
+    "ISO_A3": "TJK",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "TKL",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "TLS",
+    "WHO_REGION": "SEA"
+  },
+  {
+    "ISO_A3": "TKM",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "TUN",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "TON",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "TUR",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "TTO",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "TUV",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "TZA",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "UKR",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "UGA",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "USA",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "URY",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "UZB",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "VCT",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "VEN",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "VGB",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "VNM",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "VUT",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "WLF",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "WSM",
+    "WHO_REGION": "WPR"
+  },
+  {
+    "ISO_A3": "YEM",
+    "WHO_REGION": "EMR"
+  },
+  {
+    "ISO_A3": "SCG",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "ZAF",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "ZMB",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "ZWE",
+    "WHO_REGION": "AFR"
+  },
+  {
+    "ISO_A3": "GUF",
+    "WHO_REGION": "AMR"
+  },
+  {
+    "ISO_A3": "XKX",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "ISO_A3": "VAT",
+    "WHO_REGION": "EUR"
+  },
+  {
+    "WHO_REGION": "EUR",
+    "ISO_A3": "SJM"
+  },
+  {
+    "WHO_REGION": "EUR", "ISO_A3": "LIE"
+  },
+  {
+    "WHO_REGION": "EUR", "ISO_A3": "JEY"
+  },
+  {
+    "WHO_REGION": "EUR", "ISO_A3": "IMN"
+  },
+  {
+    "WHO_REGION": "EUR", "ISO_A3": "GIB"
+  },
+  {
+    "WHO_REGION": "EUR", "ISO_A3": "FRO"
+  },
+  {
+    "WHO_REGION": "EUR", "ISO_A3": "GGY"
+  },
+  {
+    "WHO_REGION": "WPR", "ISO_A3": "JTN"
+  },
+  {
+    "WHO_REGION": "WPR", "ISO_A3": "MID"
+  },
+  {
+    "WHO_REGION": "WPR", "ISO_A3": "WAK"
+  },
+  {
+    "WHO_REGION": "AMR", "ISO_A3": "MAF"
+  },
+  {
+    "WHO_REGION": "AMR", "ISO_A3": "MTQ"
+  },
+  {
+    "WHO_REGION": "AFR", "ISO_A3": "MYT"
+  },
+  {
+    "WHO_REGION": "WPR", "ISO_A3": "NFK"
+  },
+  {
+    "WHO_REGION": "WPR", "ISO_A3": "PCN"
+  },
+  {
+    "WHO_REGION": "AFR", "ISO_A3": "REU"
+  },
+  {
+    "WHO_REGION": "AFR", "ISO_A3": "SHN"
+  },
+  {
+    "WHO_REGION": "AMR", "ISO_A3": "SPM"
+  },
+  {
+    "WHO_REGION": "AMR", "ISO_A3": "VIR"
+  },
+  {
+    "WHO_REGION": "AMR", "ISO_A3": "BLM"
+  },
+  {
+    "WHO_REGION": "WPR", "ISO_A3": "CCK"
+  },
+  {
+    "WHO_REGION": "WPR", "ISO_A3": "CXR"
+  },
+  {
+    "WHO_REGION": "AMR", "ISO_A3": "FLK"
+  },
+  {
+    "WHO_REGION": "AMR", "ISO_A3": "GLP"
+  },
+  {
+    "WHO_REGION": "AMR", "ISO_A3": "BES"
+  },
+  {
+    "WHO_REGION":"AFR", "ISO_A3": "ESH"
+  }
+]

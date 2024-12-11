@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VariantTrack component test Should render correctly 1`] = `
+<div
+  className="RegionViewer__RegionViewerWrapper-tk0egb-0 kwdorA"
+  style={
+    Object {
+      "width": undefined,
+    }
+  }
+>
+  <div
+    className="Track__OuterWrapper-sc-1sdyh2h-0 fRKxmh"
+  >
+    <div
+      className="Track__InnerWrapper-sc-1sdyh2h-1 gclwKL"
+    >
+      <div
+        className="Track__SidePanel-sc-1sdyh2h-3 essNTz"
+        style={
+          Object {
+            "width": 100,
+          }
+        }
+      >
+        <div
+          className="Track__TitlePanel-sc-1sdyh2h-5 dDJgDq"
+        >
+          <span />
+        </div>
+      </div>
+      <div
+        className="Track__CenterPanel-sc-1sdyh2h-4 jDRJWQ"
+        style={
+          Object {
+            "width": NaN,
+          }
+        }
+      >
+        <canvas
+          height={60}
+          style={
+            Object {
+              "height": "60px",
+              "width": "NaNpx",
+            }
+          }
+          width={NaN}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

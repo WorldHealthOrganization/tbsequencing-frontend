@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GenomeContext component test Should render correctly 1`] = `
+<svg
+  style={
+    Object {
+      "backgroundColor": "#E8F1F6",
+      "borderLeft": "2px solid #009ADE",
+      "borderRight": "2px solid #009ADE",
+      "marginLeft": "0px",
+      "marginRight": "0px",
+    }
+  }
+/>
+`;

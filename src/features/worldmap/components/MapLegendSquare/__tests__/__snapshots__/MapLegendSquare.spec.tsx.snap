@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MapLegendSquare component test Should render correctly 1`] = `
+<div
+  className="css-1s29108-MapLegendSquare"
+/>
+`;

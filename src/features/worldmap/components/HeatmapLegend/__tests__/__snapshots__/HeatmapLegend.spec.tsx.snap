@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeatmapLegend component test Should render correctly 1`] = `
+<legend
+  className="css-1pzxlvy-HeatmapLegend"
+>
+  <div
+    className="css-1suqesg-MapLegendSquare"
+  />
+  <div
+    className="css-lsl4m3-MapLegendSquare"
+  />
+  <div
+    className="css-1rqy87q-MapLegendSquare"
+  />
+  <div
+    className="css-1vpoz8s-MapLegendSquare"
+  />
+  <div
+    className="css-1k62fbu-MapLegendSquare"
+  />
+  <div
+    className="css-1k62fbu-MapLegendSquare"
+  />
+  <div
+    className="css-307wo-MapLegendSquare"
+  />
+  <div
+    className="css-v0r8h2-MapLegendSquare"
+  />
+  <div
+    className="css-10fxyx9-MapLegendSquare"
+  />
+</legend>
+`;

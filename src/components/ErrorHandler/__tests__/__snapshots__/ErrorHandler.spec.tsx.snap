@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorHandler component test Should render correctly 1`] = `
+<div
+  className="css-l0rjd4-ErrorHandler"
+>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-fgh2mf-MuiTypography-root-BaseText"
+  >
+    Oops, something went wrong...
+  </p>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-fgh2mf-MuiTypography-root-BaseText"
+  >
+    Please, try again later
+  </p>
+  <button
+    className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root css-16bw540-MuiButtonBase-root-MuiButton-root-AppButton"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onContextMenu={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-3cwtjx-MuiTypography-root-BaseText"
+    >
+      Refresh
+    </p>
+  </button>
+  <div
+    className="css-8rl2cb-ErrorHandler"
+  >
+    <img
+      alt="error"
+      className="css-1f94h6l-ErrorHandler"
+      src="errorSvg.svg"
+    />
+  </div>
+</div>
+`;

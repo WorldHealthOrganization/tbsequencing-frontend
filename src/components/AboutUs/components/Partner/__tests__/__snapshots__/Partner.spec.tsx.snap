@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Partner component test Should render correctly 1`] = `
+<div
+  className="css-eqjams-Partner"
+>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-kxf6at-MuiTypography-root-BaseText"
+  >
+    <a
+      className="css-fe89j9-Partner"
+    />
+  </p>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-nhq2dv-MuiTypography-root-BaseText"
+  />
+</div>
+`;

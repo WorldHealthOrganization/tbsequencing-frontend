@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResistanceData component test Should render correctly 1`] = `
+<div
+  className="css-t8y96o-ResistanceData"
+>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-ve7s52-MuiTypography-root-BaseText"
+  >
+    Resistance Data
+  </p>
+  <div
+    className="css-wh98kw-ResistanceData"
+  >
+    <div
+      className="MuiTabs-root css-1h164f2-MuiTabs-root"
+    >
+      <div
+        className="MuiTabs-scroller MuiTabs-fixed css-jpln7h-MuiTabs-scroller"
+        onScroll={[Function]}
+        style={
+          Object {
+            "marginBottom": -0,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <div
+          aria-orientation={null}
+          className="MuiTabs-flexContainer css-heg063-MuiTabs-flexContainer"
+          onKeyDown={[Function]}
+          role="tablist"
+        >
+          <button
+            aria-selected={true}
+            className="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary MuiTab-fullWidth Mui-selected css-109t08r-MuiButtonBase-root-MuiTab-root"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="tab"
+            tabIndex={0}
+            type="button"
+          >
+            mock
+            <span
+              className="MuiTabs-indicator css-1aquho2-MuiTabs-indicator"
+              style={Object {}}
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-1d4gvh7-ResistanceData"
+    />
+  </div>
+  <div
+    className="css-140p7hc-ResistanceData"
+  />
+</div>
+`;

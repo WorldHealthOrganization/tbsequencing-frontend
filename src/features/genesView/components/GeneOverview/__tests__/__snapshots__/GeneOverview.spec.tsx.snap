@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GeneOverview Should render correctly 1`] = `
+<div
+  className="css-9j8ib4-AppPaper"
+>
+  <div />
+  <div
+    className="css-1w9istt-GeneOverviewContent"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+    >
+      Gene Symbol
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+    >
+      rpoB
+    </p>
+  </div>
+  <div
+    className="css-1w9istt-GeneOverviewContent"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+    >
+      NCBI Gene ID
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+    >
+      <a
+        className="css-1grqmfe"
+        href="https://www.ncbi.nlm.nih.gov/gene/888164"
+        rel="noreferrer"
+        target="_blank"
+      >
+        888164
+      </a>
+    </p>
+  </div>
+  <div
+    className="css-1w9istt-GeneOverviewContent"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+    >
+      Gene Description
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+    >
+      DNA-directed RNA polymerase subunit beta
+    </p>
+  </div>
+  <div
+    className="css-1w9istt-GeneOverviewContent"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+    >
+      Locus Tag
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+    >
+      Rv0667
+    </p>
+  </div>
+  <div
+    className="css-1w9istt-GeneOverviewContent"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+    >
+      Gene type
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+    >
+      protein coding
+    </p>
+  </div>
+  <div
+    className="css-1w9istt-GeneOverviewContent"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+    >
+      Location
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+    >
+      759,807..763,325
+    </p>
+  </div>
+  <div
+    className="css-1w9istt-GeneOverviewContent"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+    >
+      Length
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+    >
+      3,518 nt
+    </p>
+  </div>
+  <div
+    className="css-1w9istt-GeneOverviewContent"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+    >
+      CDS
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+    >
+      <a
+        className="css-rgkkh9"
+        href="https://www.ncbi.nlm.nih.gov/protein/NP_215181.1"
+        rel="noreferrer"
+        target="_blank"
+      >
+        NP_215181.1
+      </a>
+    </p>
+  </div>
+  <div
+    className="css-1w9istt-GeneOverviewContent"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+    >
+      Protein Length
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1h9ij6s-MuiTypography-root-BaseText"
+    >
+      1,172 aa
+    </p>
+  </div>
+</div>
+`;
