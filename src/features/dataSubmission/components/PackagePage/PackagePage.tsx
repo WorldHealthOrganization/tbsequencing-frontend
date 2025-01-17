@@ -200,6 +200,13 @@ export const PackagePage = () => {
 
   const breadcrumbsConfig = getBreadcrumbsConfig(packageId, packageData.name);
 
+  const attachments = match<ResistanceSampleType, typeof packageData['attachments'][number] | undefined>(activeTab)
+    .with('PDST', () => packageData?.attachments.find((item) => item.type === 'PDS'))
+    .with('MIC', () => packageData?.attachments.find((item) => item.type === 'MIC'))
+    .exhaustive();
+  const notUsedColumns = attachments?.metadata && 'notUsedColumns' in attachments.metadata
+    ? attachments.metadata.notUsedColumns
+    : [];
   const samplesByActiveTab = activeTab === 'PDST' ? packageData.pdsSamples : packageData.micSamples;
   const controlsDisabled = packageData.state === 'ACCEPTED' || packageData.state === 'PENDING';
   const syncAllowed = packageData.matchingState !== 'MATCHED';
@@ -246,6 +253,7 @@ export const PackagePage = () => {
           activeTab={activeTab}
           handleTabChange={handleTabChange}
           tabs={tabs}
+          notUsedColumns={notUsedColumns}
         />
         <SequencingData
           isSomethingInSequencingDataLoading={isSomethingInSequencingDataLoading}
