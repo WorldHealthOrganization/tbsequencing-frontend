@@ -1,18 +1,22 @@
 /** @jsxImportSource @emotion/react */
-import React, { useState, useEffect, SyntheticEvent } from 'react';
+import React, {
+  useEffect, useState, SyntheticEvent, useRef,
+} from 'react';
+import { CSVLink } from 'react-csv';
 
 import { useGetDrugsDataQuery } from '../../../../services/drugsApi/drugsApi';
-import { useGetTableDataQuery } from '../../../../services/genotypeResistanceApi/genotypeResistanceApi';
+import { useGetTableDataQuery, useGetExportTableLazyQuery } from '../../../../services/genotypeResistanceApi/genotypeResistanceApi';
 import { DEFAULT_PAGE_SIZE, useTableData } from '../../hooks/useTableData';
 import { useDebounce } from '../../../../hooks/useDebounce';
+import { useExportTable } from '../../../../hooks/useExportTable';
 
 import H1 from '../../../../components/typography/H1';
 import AppPaper from '../../../../components/AppPaper/AppPaper';
 import H3 from '../../../../components/typography/H3';
-import PrimaryText from '../../../../components/typography/PrimaryText';
 
 import AutocompleteInputSearch from '../../../../components/AutocompleteInputSearch/AutocompleteInputSearch';
 import LoadingWrapper from '../../../../components/LoadingWrapper/LoadingWrapper';
+import AppButton from '../../../../components/AppButton/AppButton';
 
 import DataGrid from '../../../../components/DataGrid';
 import { pagination } from '../../../../components/DataGrid/styles';
@@ -28,6 +32,7 @@ import {
   paper,
   dataGrid,
   viewStyles,
+  buttonUploadWrapper,
   addStyle,
 } from './styles';
 
@@ -39,6 +44,9 @@ export const columns: IColumn<GenotypeResistance>[] = [
 ];
 
 const GenotypeResistanceView = () => {
+  // react-scv lib doesn't have types for ref
+  const csvRef = useRef<any>(null);
+
   const [inputSampleValue, setInputSampleValue] = useState<boolean | string>(false);
   const debouncedSampleValue = useDebounce<boolean | string>(inputSampleValue, 500);
 
@@ -69,9 +77,20 @@ const GenotypeResistanceView = () => {
     useGetDataQuery: useGetTableDataQuery,
   });
 
+  const {
+    response,
+    fetchData,
+  } = useExportTable(useGetExportTableLazyQuery, { filters });
+
   const handleSampleChange = (e: SyntheticEvent, value: string) => {
     setInputSampleValue(value);
   };
+
+  useEffect(() => {
+    if (csvRef?.current && response.data?.length && response.status === 'fulfilled') {
+      csvRef.current.link.click();
+    }
+  }, [response]);
 
   useEffect(() => {
     if (typeof debouncedSampleValue === 'boolean') {
@@ -96,11 +115,6 @@ const GenotypeResistanceView = () => {
   return (
     <div css={wrapper}>
       <H1 style={header}>Sample Alias Search</H1>
-      <div>
-        <PrimaryText>
-          Variant grade interpretations are available when filtering on the Grade column.
-        </PrimaryText>
-      </div>
       <div css={dataGrid}>
         <DataGrid<GenotypeResistance>
           isLoading={isTableDataLoading}
@@ -131,6 +145,22 @@ const GenotypeResistanceView = () => {
                   options={[]}
                   style={viewStyles.sxAutoComplete}
                   placeholder="Search by Sample Alias Name"
+                />
+              </div>
+              <div css={buttonUploadWrapper}>
+                <H3 style={viewStyles.autoCompleteInputLabel}>Export CSV Data</H3>
+                <AppButton
+                  onClick={fetchData}
+                  variant="outlined"
+                  size="medium"
+                  startIconName="file_download"
+                >
+                  {response.isLoading ? 'Loading...' : 'Download'}
+                </AppButton>
+                <CSVLink
+                  ref={csvRef}
+                  data={response.data || []}
+                  filename="GenotypeResistanceSearch"
                 />
               </div>
             </AppPaper>

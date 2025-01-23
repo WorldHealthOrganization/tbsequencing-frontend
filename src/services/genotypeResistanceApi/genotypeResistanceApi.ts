@@ -33,7 +33,19 @@ export const genotypeResistanceApi = createApi({
         };
       },
     }),
+    getExportTable: build.query<TableData[], ITableDataParams>({
+      query: (params) => ({
+        url: '/submission/genotype-resistance/',
+        params: {
+          ...params.search,
+          order: params.order,
+          drug: params.drugID,
+        },
+      }),
+    }),
   }),
 });
+
+export const useGetExportTableLazyQuery = genotypeResistanceApi.endpoints.getExportTable.useLazyQuery;
 
 export const { useGetTableDataQuery } = genotypeResistanceApi;

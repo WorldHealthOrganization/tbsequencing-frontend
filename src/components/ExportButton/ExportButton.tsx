@@ -7,6 +7,7 @@ import { styles } from './styles';
 import H3 from '../typography/H3';
 import { AppButton } from '../AppButton/AppButton';
 import { useExportTable } from '../../hooks/useExportTable';
+import { useGetExportTableLazyQuery } from '../../services/drugsApi/drugsApi';
 import { IDrug } from '../../services/drugsApi/models';
 import { IGene } from '../../services/genesApi/models';
 import { IColumnFilter, ISortState } from '../DataGrid/models';
@@ -33,6 +34,7 @@ export const ExportButton = ({
     response,
     fetchData,
   } = useExportTable(
+    useGetExportTableLazyQuery,
     {
       drugID: 'drugId' in selectedDropdownItem ? selectedDropdownItem.drugId : undefined,
       geneDbCrossrefId: 'geneDbCrossrefId' in selectedDropdownItem

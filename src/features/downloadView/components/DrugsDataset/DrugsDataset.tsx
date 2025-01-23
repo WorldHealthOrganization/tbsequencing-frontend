@@ -10,6 +10,7 @@ import AppButton from '../../../../components/AppButton';
 import {
   wrapper, box, header, content, main, mainTop, list, asLink, asLinkFirst, control, csvLink,
 } from './styles';
+import { useGetExportTableLazyQuery } from '../../../../services/drugsApi/drugsApi';
 import { useExportTable } from '../../../../hooks/useExportTable';
 import { IExtendedDrug } from '../../models';
 
@@ -40,6 +41,7 @@ const DrugsDataset = ({
     response,
     fetchData,
   } = useExportTable(
+    useGetExportTableLazyQuery,
     {
       drugID: getDrugIds(),
       filters: [],
