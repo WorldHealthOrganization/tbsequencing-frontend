@@ -37,9 +37,8 @@ import {
   wrapper,
   paperWrapper,
   paper,
-  genesViewStyles,
+  viewStyles,
   dataGrid,
-  // iconStyles,
   buttonUploadWrapper,
   addStyle,
 } from './styles';
@@ -250,9 +249,9 @@ const MutationView = () => {
         >
           <div css={paperWrapper}>
             <AppPaper style={paper}>
-              <div css={genesViewStyles.autoCompleteContainer}>
+              <div css={viewStyles.autoCompleteContainer}>
                 <H3
-                  style={genesViewStyles.autoCompleteInputLabel}
+                  style={viewStyles.autoCompleteInputLabel}
                 >
                   Gene
                 </H3>
@@ -268,18 +267,18 @@ const MutationView = () => {
                   onChange={handleGeneChange}
                   value={`${debouncedGeneValue}`}
                   options={optionsGene}
-                  style={genesViewStyles.sxAutoComplete}
+                  style={viewStyles.sxAutoComplete}
                   placeholder="Search by Gene"
                 />
               </div>
-              {/* <div css={genesViewStyles.autoCompleteContainer}>
+              {/* <div css={viewStyles.autoCompleteContainer}>
                 <H3
-                  style={genesViewStyles.autoCompleteInputLabel}
+                  style={viewStyles.autoCompleteInputLabel}
                 >
                   Position
                 </H3>
                 <TextField
-                  sx={genesViewStyles.sxAutoComplete}
+                  sx={viewStyles.sxAutoComplete}
                   placeholder="Search by Position"
                   type="text"
                   disabled={isTableDataLoading}
@@ -298,7 +297,7 @@ const MutationView = () => {
                 />
               </div> */}
               <div css={buttonUploadWrapper}>
-                <H3 style={genesViewStyles.autoCompleteInputLabel}>Export CSV Data</H3>
+                <H3 style={viewStyles.autoCompleteInputLabel}>Export CSV Data</H3>
                 <AppButton
                   onClick={fetchData}
                   variant="outlined"
