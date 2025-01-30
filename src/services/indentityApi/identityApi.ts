@@ -1,7 +1,6 @@
 import { createApi } from '@reduxjs/toolkit/query/react';
 import { getEndpoint } from '../../utils/getEndpoint';
 import { ILoginResponse } from '../../features/auth/storeToken';
-// eslint-disable-next-line import/no-cycle
 import getFetchWithAuth from '../../app/fetchWithAuth';
 
 import type {

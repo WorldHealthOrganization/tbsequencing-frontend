@@ -56,7 +56,14 @@ export const SequencingData = ({
         <H3>Sequencing Data</H3>
         <div css={styles.descriptionContainer}>
           <PrimaryText style={styles.sectionHeader}>only *fastq.gz files allowed</PrimaryText>
-          <AppButton disabled={controlsDisabled} onClick={handleBrowseClick} size="large" variant="contained">Browse Files</AppButton>
+          <AppButton 
+            disabled={controlsDisabled} 
+            onClick={handleBrowseClick} 
+            size="large" 
+            variant="contained"
+          >
+            Browse Files
+          </AppButton>
         </div>
       </div>
       <input

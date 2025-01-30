@@ -188,11 +188,18 @@ export const PackagePage = () => {
       .with('PDST', () => (packageData?.attachments.find((item) => item.type === 'PDS')?.originalFilename))
       .exhaustive();
 
-    const drugsListLabel = activeTab === 'MIC' ? getDrugListLabel(packageData.micDrugs) : getDrugListLabel(packageData.pdsDrugs);
+    const drugsListLabel = activeTab === 'MIC' 
+      ? getDrugListLabel(packageData.micDrugs) 
+      : getDrugListLabel(packageData.pdsDrugs);
 
     const resistanceFileLabel = match<ResistanceSampleType, string>(activeTab)
-      .with('PDST', () => `${resistanceFileName} (${getDrugsPartialLabel(drugsCount)} / ${getConcentrationPartialLabel(pdsDrugsConcentration)}: ${drugsListLabel})`)
-      .with('MIC', () => `${resistanceFileName} (${getDrugsPartialLabel(drugsCount)}: ${drugsListLabel})`)
+      .with('PDST', () => (
+        `${resistanceFileName} (${getDrugsPartialLabel(drugsCount)} / ` +
+        `${getConcentrationPartialLabel(pdsDrugsConcentration)}: ${drugsListLabel})`
+      ))
+      .with('MIC', () => (
+        `${resistanceFileName} (${getDrugsPartialLabel(drugsCount)}: ${drugsListLabel})`
+      ))
       .exhaustive();
 
     return resistanceFileLabel;

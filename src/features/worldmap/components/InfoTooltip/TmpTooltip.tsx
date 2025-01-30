@@ -24,7 +24,6 @@ export const TmpTooltip = ({
     setAnchorEl(null);
   };
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const theme = createTheme({
     palette: {
       primary: {

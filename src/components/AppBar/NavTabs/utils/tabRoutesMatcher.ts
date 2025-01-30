@@ -21,7 +21,11 @@ export const getActiveTab = (location: RouterProps['location'], tabsConfig: ITab
   return 0;
 };
 
-export const getActiveDropdown = (location: RouterProps['location'], dropdownConfig: IDropdownConfig, defaultDropItem: string):string => {
+export const getActiveDropdown = (
+  location: RouterProps['location'], 
+  dropdownConfig: IDropdownConfig,
+  defaultDropItem: string
+): string => {
   if (typeof location !== 'string') {
     const menuElement = dropdownConfig.find((tab) => location.pathname === tab.path);
     return menuElement?.label || defaultDropItem;

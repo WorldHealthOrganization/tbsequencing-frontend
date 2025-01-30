@@ -13,7 +13,6 @@ import { clearTokens, setAccessToken } from '../features/auth/storeToken';
 import type { RootState } from './store';
 import { IRefreshTokenResult } from '../services/indentityApi/models';
 import { IHttpError } from '../models/HttpError';
-// eslint-disable-next-line import/no-cycle
 import { identityApi } from '../services/indentityApi/identityApi';
 
 const mutex = new Mutex();

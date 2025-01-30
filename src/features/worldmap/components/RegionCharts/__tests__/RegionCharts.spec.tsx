@@ -33,7 +33,6 @@ describe('RegionCharts component test', () => {
     [Regions.EASTERN_MEDITERRANEAN]: mockConfigPosition,
   };
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const mockHandler = (_: IAggregatedGlobalDrug) => jest.fn();
 
   test('renders RegionCharts component without error', () => {

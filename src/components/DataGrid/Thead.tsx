@@ -28,8 +28,22 @@ interface ITheadProps<T> {
   sortState?: ISortState;
 }
 
-const columnsAllowedToFilter = ['geneName', 'proteicAnnName', 'nucleodicAnnName', 'variantName', 'consequence', 'variantGrade'];
-const columnsAllowedToSort = ['globalFrequency', 'totalCounts', 'resistantCount', 'susceptbleCount', 'intermediateCount'];
+const columnsAllowedToFilter = [
+  'geneName',
+  'proteicAnnName', 
+  'nucleodicAnnName',
+  'variantName',
+  'consequence',
+  'variantGrade'
+];
+
+const columnsAllowedToSort = [
+  'globalFrequency',
+  'totalCounts',
+  'resistantCount', 
+  'susceptbleCount',
+  'intermediateCount'
+];
 
 interface ITableHeaderProps<T> {
   sortState: ITheadProps<unknown>['sortState'];
