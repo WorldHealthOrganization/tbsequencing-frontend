@@ -48,3 +48,9 @@ export interface DrugTableColumns extends BaseColumns {
 export interface GeneTableColumns extends BaseColumns {
   drug: number;
 }
+
+export interface GenotypeResistance extends DrugTableColumns {
+  variant: string;
+  sampleAliasesName: string;
+  resistanceFlag: string;
+}
