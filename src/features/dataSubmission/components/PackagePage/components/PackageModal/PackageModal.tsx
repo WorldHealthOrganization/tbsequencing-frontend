@@ -92,8 +92,22 @@ export const PackageModal = ({
           />
         </div>
         <div css={styles.buttons}>
-          <AppButton style={styles.cancelBtn} onClick={onCancel} variant="outlined" size="large">{cancelLabel}</AppButton>
-          <AppButton disabled={isLoading} onClick={handleSubmit(onSubmit)} variant="contained" size="large">{okayLabel}</AppButton>
+          <AppButton 
+            style={styles.cancelBtn} 
+            onClick={onCancel} 
+            variant="outlined" 
+            size="large"
+          >
+            {cancelLabel}
+          </AppButton>
+          <AppButton 
+            disabled={isLoading} 
+            onClick={handleSubmit(onSubmit)} 
+            variant="contained" 
+            size="large"
+          >
+            {okayLabel}
+          </AppButton>
         </div>
       </>
     </BaseModal>

@@ -44,7 +44,11 @@ const UserMenuRow = ({ route, label, isLogout }: IRowProps) => {
 
   return (
     <li css={[styles.liReset]}>
-      <button css={[styles.navButton, logoutStyle]} type="button" onClick={isLogout ? handleLogoutRedirect : handleClick}>
+      <button 
+        css={[styles.navButton, logoutStyle]} 
+        type="button" 
+        onClick={isLogout ? handleLogoutRedirect : handleClick}
+      >
         <H3>{label}</H3>
         {isLogout && <Logout sx={styles.logoutIconSx} />}
       </button>

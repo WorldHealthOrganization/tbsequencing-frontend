@@ -75,8 +75,22 @@ export const ResetPassword = () => {
           errors={errors as FieldErrors}
         />
         <div css={styles.btnContainer}>
-          <AppButton disabled={!isValid} onClick={handleSubmit(onSubmit)} variant="contained" size="large">Reset Password</AppButton>
-          <AppButton style={styles.signUpBtn} size="large" variant="outlined" onClick={handleSignUpPress}>Sign Up</AppButton>
+          <AppButton 
+            disabled={!isValid} 
+            onClick={handleSubmit(onSubmit)} 
+            variant="contained" 
+            size="large"
+          >
+            Reset Password
+          </AppButton>
+          <AppButton 
+            style={styles.signUpBtn} 
+            size="large" 
+            variant="outlined" 
+            onClick={handleSignUpPress}
+          >
+            Sign Up
+          </AppButton>
         </div>
       </AppPaper>
     </BasePage>

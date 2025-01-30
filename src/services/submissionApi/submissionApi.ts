@@ -145,7 +145,9 @@ export const submissionApi = createApi({
         }
 
         const packageData = packageResult.data as IPackage;
-        const samplesResponse = await fetcher(`/submission/packages/${_arg.packageId}/sample-aliases`, _queryApi, _extraOptions);
+        const samplesResponse = await fetcher(
+          `/submission/packages/${_arg.packageId}/sample-aliases`, _queryApi, _extraOptions
+        );
 
         if (samplesResponse.error) {
           return { error: samplesResponse.error as FetchBaseQueryError };

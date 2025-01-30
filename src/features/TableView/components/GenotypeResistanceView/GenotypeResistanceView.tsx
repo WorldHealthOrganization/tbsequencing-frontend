@@ -5,7 +5,10 @@ import React, {
 import { CSVLink } from 'react-csv';
 
 import { useGetDrugsDataQuery } from '../../../../services/drugsApi/drugsApi';
-import { useGetTableDataQuery, useGetExportTableLazyQuery } from '../../../../services/genotypeResistanceApi/genotypeResistanceApi';
+import { 
+  useGetTableDataQuery, 
+  useGetExportTableLazyQuery
+} from '../../../../services/genotypeResistanceApi/genotypeResistanceApi';
 import { DEFAULT_PAGE_SIZE, useTableData } from '../../hooks/useTableData';
 import { useDebounce } from '../../../../hooks/useDebounce';
 import { useExportTable } from '../../../../hooks/useExportTable';

@@ -7,7 +7,9 @@ import { CSVLink } from 'react-csv';
 // import { InputAdornment, TextField } from '@mui/material';
 // import SearchIcon from '@mui/icons-material/Search';
 
-import { useGetDrugsDataQuery, useGetTableDataQuery, useGetExportTableLazyQuery } from '../../../../services/drugsApi/drugsApi';
+import {
+  useGetDrugsDataQuery, useGetTableDataQuery, useGetExportTableLazyQuery
+} from '../../../../services/drugsApi/drugsApi';
 import { IDrug } from '../../../../services/drugsApi/models';
 import { IGene } from '../../../../services/genesApi/models';
 import { DEFAULT_PAGE_SIZE, useTableData } from '../../hooks/useTableData';
