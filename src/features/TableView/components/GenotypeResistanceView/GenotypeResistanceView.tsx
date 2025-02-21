@@ -83,7 +83,7 @@ const GenotypeResistanceView = () => {
   const {
     response,
     fetchData,
-  } = useExportTable(useGetExportTableLazyQuery, { filters });
+  } = useExportTable(useGetExportTableLazyQuery, { filters, drugID: getDrugIds() });
 
   const handleSampleChange = (e: SyntheticEvent, value: string) => {
     setInputSampleValue(value);
