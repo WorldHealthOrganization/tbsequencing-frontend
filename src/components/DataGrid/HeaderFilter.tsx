@@ -68,7 +68,13 @@ const TextFilter = ({ onSubmit, value, onChange }: ITextFilter) => (
     InputProps={{
       endAdornment: (
         <InputAdornment position="end">
-          {value && <CloseIcon data-testid="clear-filter-icon" onClick={() => onSubmit('')} sx={headerFilterStyles.clearFilterIcon} />}
+          {value && (
+            <CloseIcon 
+              data-testid="clear-filter-icon" 
+              onClick={() => onSubmit('')} 
+              sx={headerFilterStyles.clearFilterIcon}
+            />
+          )}
         </InputAdornment>
       ),
     }}

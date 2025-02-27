@@ -7,6 +7,7 @@ import { submissionApi } from '../services/submissionApi/submissionApi';
 import { overviewApi } from '../services/overviewApi/overviewApi';
 import drugsApi from '../services/drugsApi';
 import genesApi from '../services/genesApi';
+import genotypeResistanceApi from '../services/genotypeResistanceApi';
 
 import drawerReducer from '../features/drawer/drawerSlice';
 import { s3Api } from '../services/s3Api/s3Api';
@@ -18,6 +19,7 @@ export const reducer = {
   [dictionariesApi.reducerPath]: dictionariesApi.reducer,
   [drugsApi.reducerPath]: drugsApi.reducer,
   [genesApi.reducerPath]: genesApi.reducer,
+  [genotypeResistanceApi.reducerPath]: genotypeResistanceApi.reducer,
   [submissionApi.reducerPath]: submissionApi.reducer,
   [s3Api.reducerPath]: s3Api.reducer,
   [feederApi.reducerPath]: feederApi.reducer,
@@ -36,6 +38,7 @@ export const store = configureStore({
       dictionariesApi.middleware,
       drugsApi.middleware,
       genesApi.middleware,
+      genotypeResistanceApi.middleware,
       submissionApi.middleware,
       overviewApi.middleware,
       feederApi.middleware,

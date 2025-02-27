@@ -188,11 +188,18 @@ export const PackagePage = () => {
       .with('PDST', () => (packageData?.attachments.find((item) => item.type === 'PDS')?.originalFilename))
       .exhaustive();
 
-    const drugsListLabel = activeTab === 'MIC' ? getDrugListLabel(packageData.micDrugs) : getDrugListLabel(packageData.pdsDrugs);
+    const drugsListLabel = activeTab === 'MIC' 
+      ? getDrugListLabel(packageData.micDrugs) 
+      : getDrugListLabel(packageData.pdsDrugs);
 
     const resistanceFileLabel = match<ResistanceSampleType, string>(activeTab)
-      .with('PDST', () => `${resistanceFileName} (${getDrugsPartialLabel(drugsCount)} / ${getConcentrationPartialLabel(pdsDrugsConcentration)}: ${drugsListLabel})`)
-      .with('MIC', () => `${resistanceFileName} (${getDrugsPartialLabel(drugsCount)}: ${drugsListLabel})`)
+      .with('PDST', () => (
+        `${resistanceFileName} (${getDrugsPartialLabel(drugsCount)} / ` +
+        `${getConcentrationPartialLabel(pdsDrugsConcentration)}: ${drugsListLabel})`
+      ))
+      .with('MIC', () => (
+        `${resistanceFileName} (${getDrugsPartialLabel(drugsCount)}: ${drugsListLabel})`
+      ))
       .exhaustive();
 
     return resistanceFileLabel;
@@ -200,6 +207,13 @@ export const PackagePage = () => {
 
   const breadcrumbsConfig = getBreadcrumbsConfig(packageId, packageData.name);
 
+  const attachments = match<ResistanceSampleType, typeof packageData['attachments'][number] | undefined>(activeTab)
+    .with('PDST', () => packageData?.attachments.find((item) => item.type === 'PDS'))
+    .with('MIC', () => packageData?.attachments.find((item) => item.type === 'MIC'))
+    .exhaustive();
+  const notUsedColumns = attachments?.metadata && 'notUsedColumns' in attachments.metadata
+    ? attachments.metadata.notUsedColumns
+    : [];
   const samplesByActiveTab = activeTab === 'PDST' ? packageData.pdsSamples : packageData.micSamples;
   const controlsDisabled = packageData.state === 'ACCEPTED' || packageData.state === 'PENDING';
   const syncAllowed = packageData.matchingState !== 'MATCHED';
@@ -246,6 +260,7 @@ export const PackagePage = () => {
           activeTab={activeTab}
           handleTabChange={handleTabChange}
           tabs={tabs}
+          notUsedColumns={notUsedColumns}
         />
         <SequencingData
           isSomethingInSequencingDataLoading={isSomethingInSequencingDataLoading}

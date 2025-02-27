@@ -16,13 +16,14 @@ export const prepareRequestFilters = (filters: IColumnFilter[]) => (
 
 interface IUseTableData {
   drugID?: number | string;
+  sampleAliasesName?: string;
   geneDbCrossrefId?: number;
   skipQuery?: boolean;
   useGetDataQuery: UseQuery<any>;
 }
 
 export const useTableData = ({
-  drugID, geneDbCrossrefId, useGetDataQuery, skipQuery,
+  drugID, sampleAliasesName, geneDbCrossrefId, useGetDataQuery, skipQuery,
 }: IUseTableData) => {
   const [sortState, setSortState] = useState<ISortState>({ colID: '', colIndex: -1, order: undefined });
   const [filters, setFilters] = useState<IColumnFilter[]>([]);
@@ -61,12 +62,13 @@ export const useTableData = ({
     isFetching: isTableDataLoading,
   } = useGetDataQuery({
     geneDbCrossrefId,
+    sampleAliasesName,
     drugID,
     order: getSortOrder(),
     search: requestFilters,
     page: paging,
     pageSize,
-  }, { skip: (!geneDbCrossrefId && !drugID) || skipQuery });
+  }, { skip: (!geneDbCrossrefId && !drugID && !sampleAliasesName) || skipQuery });
 
   return {
     rowsCount: (response as ITableResponse)?.rowsCount,

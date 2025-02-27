@@ -37,6 +37,9 @@ interface IPackageAttachment {
   pk: number;
   size: number;
   type: PackageAttachmentType;
+  metadata: {
+    notUsedColumns: string[]
+  };
 }
 
 export interface IPackage {

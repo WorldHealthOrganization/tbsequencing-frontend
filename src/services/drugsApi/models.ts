@@ -94,6 +94,7 @@ export interface IGetGlobalDrugsRequest {
 
 export interface ITableDataParams {
   drugID?: number | string;
+  sampleAliasesName?: string;
   geneDbCrossrefId?: number;
   order?: string;
   search?: Record<string, unknown>;

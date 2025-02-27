@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import React from 'react';
 import {
-  Tab, Tabs,
+  Tab, Tabs, Alert,
 } from '@mui/material';
 import * as styles from './styles';
 import type { ITab } from '../../PackagePage';
@@ -30,14 +30,15 @@ interface Props {
   controlsDisabled: boolean;
   packageId: number;
   resistanceFileLabel: string;
-  fileError: IHttpError
+  fileError: IHttpError;
+  notUsedColumns: string[]
 }
 
 export const ResistanceData = ({
   tabs, activeTab, handleTabChange, samplesData, isLoading,
   onRemoveFileClick, isTabFileUploadError, errorFileName,
   onRemoveErrorClick, controlsDisabled, packageId,
-  resistanceFileLabel, fileError,
+  resistanceFileLabel, fileError, notUsedColumns,
 }: Props) => {
   const renderSamplesContent = () => {
     if (isLoading) {
@@ -72,6 +73,13 @@ export const ResistanceData = ({
               onRemoveClick={onRemoveFileClick}
               fileName={resistanceFileLabel}
             />
+          )}
+          {notUsedColumns.length > 0 && (
+            <Alert variant="filled" severity="warning">
+              The following columns are not used:
+              &nbsp;
+              {notUsedColumns.join(', ')}
+            </Alert>
           )}
           {shouldRenderUnprocessedTable && (
             <ResistanceDataTable

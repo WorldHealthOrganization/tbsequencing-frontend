@@ -5,7 +5,8 @@ import { VerifyEmail } from '../features/auth/components/verifyEmail/VerifyEmail
 import WorldMap from '../features/worldmap/components/WorldMap';
 import DrugsView from '../features/drugsView';
 import DownloadView from '../features/downloadView';
-import MutationView from '../features/MutationView/components/MutationView/MutationView';
+import MutationView from '../features/TableView/components/MutationView/MutationView';
+import GenotypeResistanceView from '../features/TableView/components/GenotypeResistanceView/GenotypeResistanceView';
 import SubmissionPackageList from '../features/dataSubmission/components/SubmissionPackageList';
 import PackagePage from '../features/dataSubmission/components/PackagePage';
 import { Registration } from '../features/auth/components/registration/Registration';
@@ -59,6 +60,10 @@ export const appRoutes = {
   mutations: {
     path: '/mutations',
     element: <MutationView />,
+  },
+  genotypeResistance: {
+    path: '/genotype-resistance',
+    element: <GenotypeResistanceView />,
   },
   dataSubmission: {
     path: '/data-submission',

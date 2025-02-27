@@ -1,5 +1,5 @@
 import { css } from '@emotion/react';
-import appColors from '../../../../styles/colors';
+import appColors from '../../styles/colors';
 
 const wrapper = css({
   padding: '64px 54px',
@@ -45,7 +45,7 @@ const paper = css({
   padding: 0,
 });
 
-const genesViewStyles = {
+const viewStyles = {
   tablesWrapper: css({
     display: 'flex',
     marginTop: '16px',
@@ -122,7 +122,7 @@ export {
   paperWrapper,
   paper,
   iconStyles,
-  genesViewStyles,
+  viewStyles,
   buttonUploadWrapper,
   addStyle,
 };

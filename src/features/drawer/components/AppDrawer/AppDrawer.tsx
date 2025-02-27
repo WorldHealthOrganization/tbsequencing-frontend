@@ -6,7 +6,8 @@ import * as styles from './styles';
 import { LoginForm } from '../../../auth/components/login/LoginForm';
 import { DrawerContent } from '../../drawerSlice';
 import { useDrawerApi } from '../../hooks/useDrawerApi';
-import DataSubmissionInstructions from '../../../dataSubmission/components/PackagePage/components/DataSubmissionInstructions';
+import DataSubmissionInstructions from
+  '../../../dataSubmission/components/PackagePage/components/DataSubmissionInstructions';
 import UserMenu from '../../../auth/components/UserMenu';
 import Chat from '../../../../components/Chat';
 import DatabasePrinciplesInfo from '../../../../components/DatabasePriciplesInfo';
