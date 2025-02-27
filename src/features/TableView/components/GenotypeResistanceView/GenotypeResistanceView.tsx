@@ -157,7 +157,11 @@ const GenotypeResistanceView = () => {
                   placeholder="Search by BioSample Accession"
                 />
               </div>
+<<<<<<< HEAD
               {/* <div css={buttonUploadWrapper}>
+=======
+              <div css={buttonUploadWrapper}>
+>>>>>>> cf065443672139bdec2a49106ceb99bdf412c505
                 <H3 style={viewStyles.autoCompleteInputLabel}>Export CSV Data</H3>
                 <AppButton
                   onClick={fetchData}
@@ -172,7 +176,11 @@ const GenotypeResistanceView = () => {
                   data={response.data || []}
                   filename="GenotypeResistanceSearch"
                 />
+<<<<<<< HEAD
               </div> */}
+=======
+              </div>
+>>>>>>> cf065443672139bdec2a49106ceb99bdf412c505
             </AppPaper>
           </div>
         </DataGrid>
