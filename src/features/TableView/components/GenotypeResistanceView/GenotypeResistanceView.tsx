@@ -40,10 +40,10 @@ import {
 } from './styles';
 
 export const columns: IColumn<GenotypeResistance>[] = [
+  { name: 'sampleAliasesName', header: 'BioSample Accession' },
   { name: 'drugName', header: 'Drug' },
+  { name: 'resistanceFlag', header: 'Genotypic Resistance' },
   { name: 'variant', header: 'Variant' },
-  { name: 'sampleAliasesName', header: 'Sample Alias Name' },
-  { name: 'resistanceFlag', header: 'Genotype Resistance' },
 ];
 
 const GenotypeResistanceView = () => {
@@ -107,7 +107,7 @@ const GenotypeResistanceView = () => {
   if (!tableData.length && isTableDataLoading) {
     return (
       <div css={wrapper}>
-        <H1 style={header}>Sample Alias Search</H1>
+        <H1 style={header}>BioSample Search</H1>
         <LoadingWrapper centered isLoading>
           <span />
         </LoadingWrapper>
@@ -117,7 +117,7 @@ const GenotypeResistanceView = () => {
 
   return (
     <div css={wrapper}>
-      <H1 style={header}>Sample Alias Search</H1>
+      <H1 style={header}>BioSample Search</H1>
       <div css={dataGrid}>
         <DataGrid<GenotypeResistance>
           isLoading={isTableDataLoading}
@@ -137,7 +137,7 @@ const GenotypeResistanceView = () => {
                 <H3
                   style={viewStyles.autoCompleteInputLabel}
                 >
-                  Sample Alias
+                  BioSample Accession
                 </H3>
                 <AutocompleteInputSearch
                   isLoading={isTableDataLoading}
@@ -147,7 +147,7 @@ const GenotypeResistanceView = () => {
                   value={`${debouncedSampleValue}`}
                   options={[]}
                   style={viewStyles.sxAutoComplete}
-                  placeholder="Search by Sample Alias Name"
+                  placeholder="Search by BioSample Accession"
                 />
               </div>
               <div css={buttonUploadWrapper}>

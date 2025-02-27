@@ -9,7 +9,7 @@ export const dropdownConfig = [
 
 export const tabsConfig = [
   { ...appRoutes.mutations, label: 'Mutation' },
-  { ...appRoutes.genotypeResistance, label: 'Genotype Resistance' },
+  { ...appRoutes.genotypeResistance, label: 'BioSample search' },
   { ...appRoutes.dataSubmission, label: 'Data submission' },
   { ...appRoutes.download, label: 'Download' },
 ];
