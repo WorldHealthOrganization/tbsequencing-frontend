@@ -16,6 +16,7 @@ import { useExportTable } from '../../../../hooks/useExportTable';
 import H1 from '../../../../components/typography/H1';
 import AppPaper from '../../../../components/AppPaper/AppPaper';
 import H3 from '../../../../components/typography/H3';
+import PrimaryText from '../../../../components/typography/PrimaryText';
 
 import AutocompleteInputSearch from '../../../../components/AutocompleteInputSearch/AutocompleteInputSearch';
 import LoadingWrapper from '../../../../components/LoadingWrapper/LoadingWrapper';
@@ -118,6 +119,12 @@ const GenotypeResistanceView = () => {
   return (
     <div css={wrapper}>
       <H1 style={header}>BioSample Search</H1>
+      <div>
+        <PrimaryText>
+          Drug resistance predictions as of the second version of the WHO mutation catalogue
+          for public BioSample accessions can be searched. 
+        </PrimaryText>
+      </div>      
       <div css={dataGrid}>
         <DataGrid<GenotypeResistance>
           isLoading={isTableDataLoading}
@@ -150,7 +157,7 @@ const GenotypeResistanceView = () => {
                   placeholder="Search by BioSample Accession"
                 />
               </div>
-              <div css={buttonUploadWrapper}>
+              {/* <div css={buttonUploadWrapper}>
                 <H3 style={viewStyles.autoCompleteInputLabel}>Export CSV Data</H3>
                 <AppButton
                   onClick={fetchData}
@@ -165,7 +172,7 @@ const GenotypeResistanceView = () => {
                   data={response.data || []}
                   filename="GenotypeResistanceSearch"
                 />
-              </div>
+              </div> */}
             </AppPaper>
           </div>
         </DataGrid>
