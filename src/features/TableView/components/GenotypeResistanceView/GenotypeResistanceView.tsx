@@ -159,14 +159,19 @@ const GenotypeResistanceView = () => {
               </div>
               <div css={buttonUploadWrapper}>
                 <H3 style={viewStyles.autoCompleteInputLabel}>Export CSV Data</H3>
-                <AppButton
-                  onClick={fetchData}
-                  variant="outlined"
-                  size="medium"
-                  startIconName="file_download"
+                <a 
+                  href={`${window.location.origin}/static/media/GenotypeResistance.csv`} 
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  {response.isLoading ? 'Loading...' : 'Download'}
-                </AppButton>
+                  <AppButton
+                    variant="outlined"
+                    size="medium"
+                    startIconName="file_download"
+                  >
+                    Download
+                  </AppButton>
+                </a>
                 <CSVLink
                   ref={csvRef}
                   data={response.data || []}
