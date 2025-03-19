@@ -22,20 +22,20 @@ exports[`MutationsCatalogue Should render correctly 1`] = `
       </p>
       <div>
         <a
-          download="Report"
-          href="data:text/csv;charset=utf-8,﻿email-sent.png"
-          onClick={[Function]}
-          target="_self"
-        />
-        <a
           download="Excel tables"
-          href="data:text/csv;charset=utf-8,﻿email-sent.png"
+          href="data:text/csv;charset=utf-8,﻿WHO-UCN-TB-2023.7-eng.xlsx"
           onClick={[Function]}
           target="_self"
         />
         <a
           download="VCF file"
-          href="data:text/csv;charset=utf-8,﻿email-sent.png"
+          href="data:text/csv;charset=utf-8,﻿Genomic_coordinates_7May2024.vcf.gz"
+          onClick={[Function]}
+          target="_self"
+        />
+        <a
+          download="PDST CSV"
+          href="data:text/csv;charset=utf-8,﻿pdst_biosample.csv"
           onClick={[Function]}
           target="_self"
         />
@@ -76,63 +76,6 @@ exports[`MutationsCatalogue Should render correctly 1`] = `
       <div
         className="css-yicdw8-MutationsCatalogue"
       >
-        Report
-      </div>
-      <div
-        className="css-ftu0pv-MutationsCatalogue"
-      >
-        <div
-          className="css-1711uy7-MutationsCatalogue"
-        >
-          PDF report of the Mutation Catalogue 2023 update initiative
-        </div>
-        <a
-          className="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1ps4owl-MuiTypography-root-MuiLink-root"
-          download="w3logo"
-          href="email-sent.png"
-          onBlur={[Function]}
-          onFocus={[Function]}
-          target="_blank"
-        >
-          <button
-            className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
-            disabled={false}
-            onBlur={[Function]}
-            onContextMenu={[Function]}
-            onDragLeave={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-            onMouseDown={[Function]}
-            onMouseLeave={[Function]}
-            onMouseUp={[Function]}
-            onTouchEnd={[Function]}
-            onTouchMove={[Function]}
-            onTouchStart={[Function]}
-            tabIndex={0}
-            type="button"
-          >
-            <svg
-              aria-hidden={true}
-              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-18vxxzc-MuiSvgIcon-root-MutationsCatalogue"
-              data-testid="FileDownloadIcon"
-              focusable="false"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"
-              />
-            </svg>
-          </button>
-        </a>
-      </div>
-    </div>
-    <div
-      className="css-15a8d1j-MutationsCatalogue"
-    >
-      <div
-        className="css-yicdw8-MutationsCatalogue"
-      >
         Excel tables
       </div>
       <div
@@ -145,8 +88,8 @@ exports[`MutationsCatalogue Should render correctly 1`] = `
         </div>
         <a
           className="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1ps4owl-MuiTypography-root-MuiLink-root"
-          download="w3logo"
-          href="email-sent.png"
+          download="WHO-UCN-TB-2023.7-eng.xlsx"
+          href="WHO-UCN-TB-2023.7-eng.xlsx"
           onBlur={[Function]}
           onFocus={[Function]}
           target="_blank"
@@ -202,8 +145,65 @@ exports[`MutationsCatalogue Should render correctly 1`] = `
         </div>
         <a
           className="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1ps4owl-MuiTypography-root-MuiLink-root"
-          download="w3logo"
-          href="email-sent.png"
+          download="Genomic_coordinates_7May2024.vcf.gz"
+          href="Genomic_coordinates_7May2024.vcf.gz"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          target="_blank"
+        >
+          <button
+            className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+            disabled={false}
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-18vxxzc-MuiSvgIcon-root-MutationsCatalogue"
+              data-testid="FileDownloadIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"
+              />
+            </svg>
+          </button>
+        </a>
+      </div>
+    </div>
+    <div
+      className="css-15a8d1j-MutationsCatalogue"
+    >
+      <div
+        className="css-yicdw8-MutationsCatalogue"
+      >
+        PDST CSV
+      </div>
+      <div
+        className="css-ftu0pv-MutationsCatalogue"
+      >
+        <div
+          className="css-1711uy7-MutationsCatalogue"
+        >
+          CSV file including all raw pDST data used as input for the association algorithm.
+        </div>
+        <a
+          className="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1ps4owl-MuiTypography-root-MuiLink-root"
+          download="raw_pdst.csv"
+          href="pdst_biosample.csv"
           onBlur={[Function]}
           onFocus={[Function]}
           target="_blank"

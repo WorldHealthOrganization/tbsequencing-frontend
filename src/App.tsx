@@ -26,18 +26,22 @@ const tagManagerArgs = {
 const App = ({ instance }: any) => {
   useTokenRotation();
   // useCookiebotConsent();
-  TagManager.initialize(tagManagerArgs);
+  if (tagManagerArgs.gtmId) {
+    TagManager.initialize(tagManagerArgs);
+  }
 
   return (
     <div className="App">
-      <MsalProvider instance={instance}>
-        <AppBar />
-        <AppDrawer />
-        <AppRoutes />
-        <CssBaseline />
-        <ToastContainer position="bottom-left" />
-        {/* <Feedback /> */}
-      </MsalProvider>
+      {instance ? (
+        <MsalProvider instance={instance}>
+          <AppBar />
+          <AppDrawer />
+          <AppRoutes />
+          <CssBaseline />
+          <ToastContainer position="bottom-left" />
+          {/* <Feedback /> */}
+        </MsalProvider>
+      ) : null}
     </div>
   );
 };

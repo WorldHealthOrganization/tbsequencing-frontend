@@ -16,13 +16,11 @@ exports[`AboutUs component test Should render correctly 1`] = `
       <p
         className="MuiTypography-root MuiTypography-body1 css-kwxhw4-MuiTypography-root-BaseText"
       >
-        Welcome to the
-         
+        Welcome to the 
         <i>
           Mycobacterium tuberculosis
         </i>
-         
-        sequencing and phenotyping knowledgebase of the WHO Global Tuberculosis Programme
+         sequencing and phenotyping knowledgebase of the WHO Global Tuberculosis Programme
       </p>
       <button
         className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root css-1sfzpsj-MuiButtonBase-root-MuiButton-root-AppButton"
@@ -72,26 +70,10 @@ exports[`AboutUs component test Should render correctly 1`] = `
         </p>
       </div>
     </div>
-    <div>
-      <svg
-        height="304"
-        width="431"
-      >
-        scientistImage1.svg
-      </svg>
-    </div>
   </section>
   <section
     className="css-1u1847n-AboutUs"
   >
-    <div>
-      <svg
-        height="304"
-        width="431"
-      >
-        scientistImage2.svg
-      </svg>
-    </div>
     <div
       className="css-1o6wunx-AboutUs"
     >
@@ -106,13 +88,11 @@ exports[`AboutUs component test Should render correctly 1`] = `
         <p
           className="MuiTypography-root MuiTypography-body1 css-5nu55l-MuiTypography-root-BaseText"
         >
-          TBKB welcomes any voluntary contributions of combined whole genome sequencing and phenotypic drug susceptibility results (pDST) of
-           
+          The tbsequencing portal welcomes any voluntary contributions of combined whole genome sequencing and phenotypic drug susceptibility results (pDST) of 
           <i>
             M. tuberculosis
           </i>
-           
-          clinical isolates. Terms and conditions for the data submitted to portal are available in the data submission page. TBKB handles processing of the raw sequencing data internally and provides aggregated statistics based on genotype calls in its different dashboard views. Ultimately, all data collected via this portal will be integrated for drug resistance markers identification under the WHO Mutations Catalogue initiative. TBKB acknowledges the contribution of the
+           clinical isolates. Terms and conditions for the data submitted to the portal are available in the data submission page. The tbsequencing portal handles processing of the raw sequencing data internally and provides aggregated statistics based on genotype calls in its different dashboard views. Ultimately, all data collected via this portal will be integrated for drug resistance markers identification under the WHO Mutations Catalogue initiative. The tbsequencing portal acknowledges the contribution of the
            
           <a
             className="css-1k83lwy-AboutUs"
@@ -203,7 +183,7 @@ exports[`AboutUs component test Should render correctly 1`] = `
         <p
           className="MuiTypography-root MuiTypography-body1 css-nhq2dv-MuiTypography-root-BaseText"
         >
-          We are a global non-profit connecting countries and communities, funders, decisionmakers, healthcare providers and developers.
+          We connect countries, communities, funders, decisionmakers and healthcare providers globally.
         </p>
       </div>
       <div
@@ -228,7 +208,7 @@ exports[`AboutUs component test Should render correctly 1`] = `
         <p
           className="MuiTypography-root MuiTypography-body1 css-nhq2dv-MuiTypography-root-BaseText"
         >
-          Unitaid saves lives by making new health products available and affordable for people in low- and middle-income countries.
+          Unitaid makes health products available and affordable for low- and middle-income countries.
         </p>
       </div>
       <div
@@ -351,7 +331,7 @@ exports[`AboutUs component test Should render correctly 1`] = `
             className="css-luhs0y-AboutUs"
             href="https://www.who.int/about/policies/terms-of-use"
           >
-            © 2023 WHO
+            © 2024 WHO
           </a>
         </p>
         <p

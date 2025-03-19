@@ -139,6 +139,7 @@
   },
   "jest": {
     "moduleNameMapper": {
+      "^d3-geo-scale-bar$": "<rootDir>/node_modules/d3-geo-scale-bar",
       "^d3-(.*)$": "d3-$1/dist/d3-$1"
     },
     "transformIgnorePatterns": [

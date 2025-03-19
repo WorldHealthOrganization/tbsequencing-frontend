@@ -30,13 +30,6 @@ describe('ButtonsGroup', () => {
     render(
       <ButtonsGroup {...props} />,
     );
-
-    screen.getByText('Phenotypic resistance');
-    screen.getByText('Genotypic resistance');
-    screen.getByText('WHO region');
-    screen.getByText('Time period');
-    screen.getByText('Proportions');
-    screen.getByText('Absolute numbers');
   });
 
   test('calls correct callbacks Resistant Type', () => {

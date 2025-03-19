@@ -101,45 +101,6 @@ exports[`ButtonsGroup Should render correctly 1`] = `
     className="css-1pim0p0-ButtonsGroup"
   >
     <button
-      className="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation MuiButtonBase-root css-sfprtt-MuiButtonBase-root-MuiButton-root-AppButton"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onContextMenu={[Function]}
-      onDragLeave={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex={0}
-      type="button"
-    >
-      <p
-        className="MuiTypography-root MuiTypography-body1 css-3cwtjx-MuiTypography-root-BaseText"
-      >
-        Time period
-      </p>
-      <span
-        className="MuiButton-endIcon MuiButton-iconSizeMedium css-9tj150-MuiButton-endIcon"
-      >
-        <span
-          aria-hidden={true}
-          className="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-kp9ftd-MuiIcon-root"
-        >
-          arrow_drop_down
-        </span>
-      </span>
-    </button>
-  </div>
-  <div
-    className="css-1pim0p0-ButtonsGroup"
-  >
-    <button
       className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root css-1ve9vu2-MuiButtonBase-root-MuiButton-root-AppButton"
       disabled={false}
       onBlur={[Function]}
