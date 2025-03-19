@@ -62,7 +62,7 @@ export const appRoutes = {
     element: <MutationView />,
   },
   genotypeResistance: {
-    path: '/genotype-resistance',
+    path: '/biosample-search',
     element: <GenotypeResistanceView />,
   },
   dataSubmission: {

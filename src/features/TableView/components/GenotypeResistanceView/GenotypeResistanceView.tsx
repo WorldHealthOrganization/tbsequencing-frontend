@@ -122,7 +122,7 @@ const GenotypeResistanceView = () => {
       <div>
         <PrimaryText>
           Drug resistance predictions following the second version of the WHO mutation catalogue
-          for public BioSample accessions can be searched. 
+          for public BioSample accessions can be searched. Research Use Only.
         </PrimaryText>
       </div>      
       <div css={dataGrid}>
