@@ -9,6 +9,13 @@ exports[`MutationView Should render correctly 1`] = `
   >
     Mutations Search
   </p>
+  <div>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-vtlwgn-MuiTypography-root-BaseText"
+    >
+      Variant grade interpretations are available when filtering on the Grade column.
+    </p>
+  </div>
   <div
     className="css-exdecl-MutationView"
   >
@@ -125,69 +132,6 @@ exports[`MutationView Should render correctly 1`] = `
               </div>
             </div>
             <div
-              className="css-1prolhb-MutationView"
-            >
-              <p
-                className="MuiTypography-root MuiTypography-body1 css-wb83mu-MuiTypography-root-BaseText"
-              >
-                Position
-              </p>
-              <div
-                className="MuiFormControl-root MuiTextField-root css-1b58097-MuiFormControl-root-MuiTextField-root"
-              >
-                <div
-                  className="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root"
-                  onClick={[Function]}
-                >
-                  <input
-                    aria-invalid={false}
-                    autoFocus={false}
-                    className="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd css-nxo287-MuiInputBase-input-MuiOutlinedInput-input"
-                    disabled={false}
-                    id=":r2:"
-                    min={0}
-                    onAnimationStart={[Function]}
-                    onBlur={[Function]}
-                    onChange={[Function]}
-                    onFocus={[Function]}
-                    placeholder="Search by Position"
-                    required={false}
-                    type="text"
-                    value=""
-                  />
-                  <div
-                    className="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-1laqsz7-MuiInputAdornment-root"
-                  >
-                    <svg
-                      aria-hidden={true}
-                      className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ghbz6l-MuiSvgIcon-root"
-                      data-testid="SearchIcon"
-                      focusable="false"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
-                      />
-                    </svg>
-                  </div>
-                  <fieldset
-                    aria-hidden={true}
-                    className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
-                  >
-                    <legend
-                      className="css-hdw1oc"
-                    >
-                      <span
-                        className="notranslate"
-                      >
-                        ​
-                      </span>
-                    </legend>
-                  </fieldset>
-                </div>
-              </div>
-            </div>
-            <div
               className="css-1rfwhsr-MutationView"
             >
               <p
@@ -287,7 +231,7 @@ exports[`MutationView Should render correctly 1`] = `
             </button>
             <a
               download="generatedBy_react-csv.csv"
-              href="data:text/csv;charset=utf-8,﻿\\"Gene\\",\\"Variant\\",\\"Nucleic Annotation\\",\\"Proteic Annotation\\",\\"Consequence\\",\\"Grade\\",\\"Global Frequency\\",\\"Total Samples\\",\\"Resistant Count\\",\\"Susceptible Count\\",\\"Intermediate Count\\""
+              href="data:text/csv;charset=utf-8,﻿\\"Gene\\",\\"Drug\\",\\"Variant\\",\\"Nucleic Annotation\\",\\"Proteic Annotation\\",\\"Consequence\\",\\"Grade\\",\\"Global Frequency\\",\\"Total Samples\\",\\"Resistant Count\\",\\"Susceptible Count\\",\\"Intermediate Count\\""
               onClick={[Function]}
               target="_self"
             />
@@ -348,6 +292,24 @@ exports[`MutationView Should render correctly 1`] = `
                         </svg>
                       </button>
                     </div>
+                  </div>
+                </th>
+                <th
+                  aria-sort={null}
+                  className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignLeft MuiTableCell-sizeMedium css-1fhv7sw-MuiTableCell-root"
+                  scope="col"
+                >
+                  <div
+                    className="css-1qyj6ee-Thead"
+                  >
+                    <span
+                      className="css-qcmszo-TableHeader"
+                    >
+                      Drug
+                    </span>
+                    <div
+                      className="css-trc57z-Thead"
+                    />
                   </div>
                 </th>
                 <th

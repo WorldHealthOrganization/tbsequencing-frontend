@@ -7,7 +7,7 @@ exports[`ResistanceDataControls component test Should render correctly 1`] = `
   <p
     className="MuiTypography-root MuiTypography-body1 css-u0plt3-MuiTypography-root-BaseText"
   >
-    Attach files here. Carefully follow the template that you can download below.
+    Attach files here. Use the template below follow the template that you can download below.
   </p>
   <div
     className="css-t9pqst-ResistanceDataControls"

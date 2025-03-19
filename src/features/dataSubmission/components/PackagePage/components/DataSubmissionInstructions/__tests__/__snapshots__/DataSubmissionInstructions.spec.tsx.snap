@@ -44,28 +44,33 @@ exports[`DataSubmissionInstructions component test Should render correctly 1`] =
   >
     Instructions
   </p>
-  <p
-    className="MuiTypography-root MuiTypography-body1 css-5th3yp-MuiTypography-root-BaseText"
-  >
-    This is the instruction that will help you to work with system correct
-  </p>
   <div
     className="css-6cm2mt-DataSubmissionInstructions"
   >
     <p
       className="MuiTypography-root MuiTypography-body1 css-o6df3b-MuiTypography-root-BaseText"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, turpis vel blandit luctus, augue tellus cursus leo, quis semper massa sapien quis augue. Phasellus sollicitudin, metus sit amet hendrerit maximus, nisi justo tincidunt lacus, quis tempor mauris magna vitae nisl. Sed sagittis sem vitae nibh rhoncus convallis ac ac arcu. Sed a mi tristique dolor gravida ornare in vel risus. Nulla metus risus, sagittis ut orci vitae, luctus sagittis diam. Donec vel rhoncus ex, sit amet eleifend orci. Aliquam arcu justo, luctus eu semper ac, aliquet vel libero. Etiam et lobortis metus.
+      To provide your MIC values or binary resistant/susceptible calls, please download 
+  and use the template below.
     </p>
     <p
       className="MuiTypography-root MuiTypography-body1 css-o6df3b-MuiTypography-root-BaseText"
     >
-      Sed fringilla venenatis dapibus. Proin mollis eu mauris porttitor auctor. Phasellus mauris nulla, faucibus non mauris eu, fringilla imperdiet tellus. Pellentesque a hendrerit quam. Nulla sodales vestibulum viverra. Mauris ac faucibus augue. In ac velit nec ante tristique efficitur. Curabitur quis pellentesque nunc, eget ullamcorper arcu. Nam accumsan odio sit amet odio mollis accumsan. Ut in purus sapien. Nunc cursus ante ut eleifend euismod. Phasellus ut pretium ex. Etiam id ex eleifend, feugiat nisi sed, tristique mauris. Ut ligula ligula, interdum nec eleifend sed, tempor in orci.
+      Data for binary resistant/susceptible calls and MIC values will be read
+  from the excel sheet named "PDST" and "MIC", respectively.
     </p>
     <p
       className="MuiTypography-root MuiTypography-body1 css-o6df3b-MuiTypography-root-BaseText"
     >
-      Ut iaculis urna nec orci finibus, non auctor tortor interdum. Maecenas risus orci, gravida id consectetur at, dapibus sed odio. Integer aliquet, massa a pulvinar cursus, est nunc imperdiet tortor, sit amet molestie nisl diam scelerisque arcu. Phasellus at egestas mauris. Aenean accumsan nulla et purus elementum placerat. Aliquam sem neque, mollis eget tincidunt at, hendrerit a massa. Nunc id dui ac dolor fermentum ornare. Morbi faucibus at eros vel mollis. In commodo ligula quis tristique scelerisque. Ut ex sapien, sagittis et lectus et, sagittis ullamcorper neque. Nulla vel metus eu sem molestie bibendum. Praesent in volutpat lectus. Donec libero leo, sollicitudin in ligula nec, iaculis dictum nisl. Phasellus eget mollis eros.
+      If you provided sample identification labels from the INSDC BioSample 
+  database, they will be automatically linked to the publicly 
+  available sequencing data.
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-o6df3b-MuiTypography-root-BaseText"
+    >
+      Otherwise, you will need to upload the sequencing data via the provided
+  interface.
     </p>
   </div>
   <button

@@ -36,6 +36,5 @@ jobs:
           HUSKY: 0
         run: |
           npm install
-        # TODO: Now we are not running tests on github actions, we should add it back. They are all broken.
-        # npm test
+          npm test
       

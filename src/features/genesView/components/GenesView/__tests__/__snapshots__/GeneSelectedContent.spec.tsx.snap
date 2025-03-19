@@ -176,7 +176,31 @@ exports[`GeneSelectedContent Should render correctly 1`] = `
           <p
             className="MuiTypography-root MuiTypography-body1 css-vtlwgn-MuiTypography-root-BaseText"
           >
-             LOSS-OF-FUNCTION 
+             START_LOST 
+          </p>
+        </div>
+        <div
+          className="css-1j3np5j-GnomadVariants"
+        >
+          <div
+            className="css-zuj9il-GnomadVariants"
+          />
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-vtlwgn-MuiTypography-root-BaseText"
+          >
+             FRAMESHIFT 
+          </p>
+        </div>
+        <div
+          className="css-1j3np5j-GnomadVariants"
+        >
+          <div
+            className="css-zuj9il-GnomadVariants"
+          />
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-vtlwgn-MuiTypography-root-BaseText"
+          >
+             STOP_GAINED 
           </p>
         </div>
         <div
