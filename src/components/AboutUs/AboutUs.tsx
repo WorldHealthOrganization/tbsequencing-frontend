@@ -160,7 +160,7 @@ export const AboutUs = () => {
           <WHOLogoBig width="228" height="70" />
           <div css={styles.legalContainer}>
             <H3 style={styles.copyright}>
-              <a css={styles.linkBanner} href="https://www.who.int/about/policies/terms-of-use">© 2024 WHO</a>
+              <a css={styles.linkBanner} href="https://www.who.int/about/policies/terms-of-use">© 2025 WHO</a>
             </H3>
             <H3 style={styles.legalNotice}>
               <a css={styles.linkBanner} href="https://www.who.int/about/policies/privacy">Privacy legal notice</a>
