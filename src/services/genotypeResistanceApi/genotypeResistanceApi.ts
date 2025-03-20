@@ -16,7 +16,7 @@ export const genotypeResistanceApi = createApi({
   endpoints: (build) => ({
     getTableData: build.query<ITableResponse, ITableDataParams>({
       query: (params) => ({
-        url: '/submission/biosample-search/',
+        url: '/submission/genotype-resistance/',
         params: {
           ...params.search,
           order: params.order,
@@ -35,7 +35,7 @@ export const genotypeResistanceApi = createApi({
     }),
     getExportTable: build.query<TableData[], ITableDataParams>({
       query: (params) => ({
-        url: '/submission/biosample-search/',
+        url: '/submission/genotype-resistance/',
         params: {
           ...params.search,
           order: params.order,
