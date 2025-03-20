@@ -121,7 +121,7 @@ const GenotypeResistanceView = () => {
       <H1 style={header}>BioSample Search</H1>
       <div>
         <PrimaryText>
-          Drug resistance predictions following the second version of the WHO mutation catalogue
+          Drug resistance predictions as of the second version of the WHO mutation catalogue
           for public BioSample accessions can be searched. Research Use Only.
         </PrimaryText>
       </div>      
