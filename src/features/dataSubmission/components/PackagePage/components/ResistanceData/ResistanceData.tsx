@@ -74,7 +74,7 @@ export const ResistanceData = ({
               fileName={resistanceFileLabel}
             />
           )}
-          {notUsedColumns.length > 0 && (
+          {notUsedColumns?.length > 0 && (
             <Alert variant="filled" severity="warning">
               The following columns are not used:
               &nbsp;

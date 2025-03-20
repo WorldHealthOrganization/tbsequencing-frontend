@@ -12,8 +12,8 @@ const searchRecentlyMock = [
 ];
 
 const searchRecentlyResult = [
-  { id: 1, leftColValue: 'rpoC', rightColValue: 'almost 14 years ago' },
-  { id: 2, leftColValue: 'RV0086', rightColValue: 'almost 11 years ago' },
+  { id: 1, leftColValue: 'rpoC', rightColValue: 'over 15 years ago' },
+  { id: 2, leftColValue: 'RV0086', rightColValue: 'over 12 years ago' },
 ];
 
 const searchMostMock = [

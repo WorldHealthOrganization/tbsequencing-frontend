@@ -122,7 +122,7 @@ const GenotypeResistanceView = () => {
       <div>
         <PrimaryText>
           Drug resistance predictions as of the second version of the WHO mutation catalogue
-          for public BioSample accessions can be searched. 
+          for public BioSample accessions can be searched. Research Use Only.
         </PrimaryText>
       </div>      
       <div css={dataGrid}>
@@ -157,22 +157,27 @@ const GenotypeResistanceView = () => {
                   placeholder="Search by BioSample Accession"
                 />
               </div>
-              {/* <div css={buttonUploadWrapper}>
+              <div css={buttonUploadWrapper}>
                 <H3 style={viewStyles.autoCompleteInputLabel}>Export CSV Data</H3>
-                <AppButton
-                  onClick={fetchData}
-                  variant="outlined"
-                  size="medium"
-                  startIconName="file_download"
+                <a 
+                  href={`${window.location.origin}/static/media/GenotypeResistance.csv`} 
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  {response.isLoading ? 'Loading...' : 'Download'}
-                </AppButton>
+                  <AppButton
+                    variant="outlined"
+                    size="medium"
+                    startIconName="file_download"
+                  >
+                    Download
+                  </AppButton>
+                </a>
                 <CSVLink
                   ref={csvRef}
                   data={response.data || []}
                   filename="GenotypeResistanceSearch"
                 />
-              </div> */}
+              </div>
             </AppPaper>
           </div>
         </DataGrid>

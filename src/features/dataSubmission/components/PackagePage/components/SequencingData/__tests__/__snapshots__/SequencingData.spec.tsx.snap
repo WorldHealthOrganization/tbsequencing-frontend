@@ -42,7 +42,7 @@ exports[`SequencingData component test Should render correctly 1`] = `
         <p
           className="MuiTypography-root MuiTypography-body1 css-3cwtjx-MuiTypography-root-BaseText"
         >
-          Browse
+          Browse Files
         </p>
       </button>
     </div>

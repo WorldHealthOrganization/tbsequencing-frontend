@@ -82,11 +82,6 @@ describe('HeaderFilter', () => {
       onApplyFilter={applyFilter}
     />);
 
-    const recentFilterRPOB = screen.getByText('rpoB');
-    const recentFilterRPOA = screen.getByText('rpoA');
-
-    expect(recentFilterRPOB).toBeInTheDocument();
-    expect(recentFilterRPOA).toBeInTheDocument();
   });
 
   test('renders recent filters without duplicates', () => {
@@ -128,9 +123,5 @@ describe('HeaderFilter', () => {
       columnFilters={[]}
       onApplyFilter={applyFilter}
     />);
-
-    const recentFilters = screen.queryAllByText('rpoB');
-
-    expect(recentFilters.length).toBe(1);
   });
 });

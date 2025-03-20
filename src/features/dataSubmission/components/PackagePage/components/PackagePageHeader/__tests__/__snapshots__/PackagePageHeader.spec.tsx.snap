@@ -68,7 +68,7 @@ exports[`PackagePageHeader component test Should render correctly 1`] = `
         <p
           className="MuiTypography-root MuiTypography-body1 css-h80jya-MuiTypography-root-BaseText"
         >
-          You can not make any changes, because package is approved
+          Package approved
         </p>
       </div>
       <div
@@ -156,7 +156,7 @@ exports[`PackagePageHeader component test Should render correctly 1`] = `
           <p
             className="MuiTypography-root MuiTypography-body1 css-3cwtjx-MuiTypography-root-BaseText"
           >
-            Sync
+            Match
           </p>
         </button>
         <button

@@ -26,7 +26,7 @@
     "@types/react-dom": "^18.0.3",
     "@types/react-test-renderer": "^18.0.0",
     "async-mutex": "^0.3.2",
-    "axios": "^1.7.4",
+    "axios": "^1.8.2",
     "canvas": "^2.9.3",
     "d3-array": "^3.2.4",
     "d3-axis": "^3.0.0",
@@ -139,6 +139,7 @@
   },
   "jest": {
     "moduleNameMapper": {
+      "^d3-geo-scale-bar$": "<rootDir>/node_modules/d3-geo-scale-bar",
       "^d3-(.*)$": "d3-$1/dist/d3-$1"
     },
     "transformIgnorePatterns": [
